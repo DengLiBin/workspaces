@@ -1,0 +1,22 @@
+package com.example.heimaweixin;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.RelativeLayout;
+
+public class TabIndicatorView extends RelativeLayout{
+	
+	public TabIndicatorView(Context context) {
+		this(context,null);
+	}
+
+	public TabIndicatorView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		
+		View.inflate(context, R.layout.tab_indicator, this);
+		
+	}
+
+	
+}

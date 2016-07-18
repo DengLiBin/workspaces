@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_backgroud" >
+
+    <RelativeLayout
+            android:id="@id/relSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="39.0dip"
+            android:layout_below="@id/relTop"
+            android:background="@drawable/home_search2" >
+
+            <EditText
+                android:id="@+id/keyWordEdit"
+                style="@style/style_14_4B4B4B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35.0dip"
+                android:background="#00ffffff"
+                android:hint="请输入您要搜索的商品"
+                android:maxLength="26"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@id/ok"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:paddingLeft="3.0dip"
+                android:paddingRight="5.0dip"
+                android:src="@drawable/temp_bg" />
+
+        </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100.0dip"
+        android:src="@drawable/search_zoom" />
+
+    <RelativeLayout
+        android:id="@id/relSpace"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@id/hotWordsLv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/relSpace"
+        android:layout_below="@id/relSearch"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_item_line" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:state_checked="true" android:drawable="@drawable/checkbox_checked"></item>
+    <item android:state_checked="false" android:drawable="@drawable/checkbox_unchecked" />
+    
+    <item  android:state_checkable="true"  android:state_checked="true" android:drawable="@drawable/checkbox_disable_checked"></item>
+    <item android:state_checkable="false" android:state_checked="false" android:drawable="@drawable/checkbox_disable_unchecked"></item>
+
+</selector>

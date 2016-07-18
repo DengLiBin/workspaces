@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <!-- 账户中心头部 -->
+
+
+    <!-- 账户中间部分 -->
+
+    <ScrollView
+        android:id="@+id/id_mycount_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <!-- 登录后显示用户信息 -->
+
+                <RelativeLayout
+                    android:id="@+id/dl_my_account_login_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dip"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="8.0dip"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="10.0dip" >
+
+                        <TextView
+                            style="@style/style_18_000000_BOLD"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="用户信息"
+                            android:textColor="@android:color/black" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dl_my_info"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dl_my_account_title"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="50.0dip"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@anim/shape_rounded_rectangle"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/dl_my_name_lin"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                style="@style/style_17_808183_BOLD"
+                                android:layout_width="80.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="10.0dip"
+                                android:gravity="left|center"
+                                android:text="用户名:" />
+
+                            <TextView
+                                android:id="@+id/dl_my_name_text"
+                                style="@style/style_14_C21513_BOLD"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="10.0dip"
+                                android:gravity="right|center" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/line" />
+
+                        <LinearLayout
+                            android:id="@+id/dl_my_bonus_lin"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                style="@style/style_17_808183_BOLD"
+                                android:layout_width="80.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="10.0dip"
+                                android:gravity="left|center"
+                                android:text="积分:" />
+
+                            <TextView
+                                android:id="@+id/dl_my_bonus_text"
+                                style="@style/style_14_C21513_BOLD"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="10.0dip"
+                                android:gravity="right|center" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/line" />
+
+                        <LinearLayout
+                            android:id="@+id/dl_my_level_lin"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                style="@style/style_17_808183_BOLD"
+                                android:layout_width="80.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="10.0dip"
+                                android:gravity="left|center"
+                                android:text="等级:" />
+
+                            <TextView
+                                android:id="@+id/dl_my_level_text"
+                                style="@style/style_14_C21513_BOLD"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="10.0dip"
+                                android:gravity="right|center" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- 未登录显示 -->
+
+                <RelativeLayout
+                    android:id="@+id/dl_my_account_logout_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="visible" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="7.0dip"
+                        android:layout_marginRight="7.0dip"
+                        android:layout_marginTop="10dip"
+                        android:background="#ffffff"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1.0dip"
+                            android:background="#ffcccccc" />
+                        <!-- 登录 -->
+
+                        <RelativeLayout
+                            android:id="@+id/dl_my_login_manage"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="50.0dip"
+                            android:paddingBottom="14.0dip"
+                            android:paddingLeft="14.0dip"
+                            android:paddingRight="12.0dip"
+                            android:paddingTop="14.0dip" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:paddingLeft="15dip"
+                                android:text="登录"
+                                android:textSize="16.0dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/android_list_idex" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1.0dip"
+                            android:background="#ffcccccc" />
+                        <!-- 注册 -->
+
+                        <RelativeLayout
+                            android:id="@+id/dl_my_register_manage"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="50.0dip"
+                            android:paddingBottom="14.0dip"
+                            android:paddingLeft="14.0dip"
+                            android:paddingRight="12.0dip"
+                            android:paddingTop="14.0dip" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:paddingLeft="15dip"
+                                android:text="注册"
+                                android:textSize="16.0dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/android_list_idex" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1.0dip"
+                            android:background="#ffcccccc" />
+                    </LinearLayout>
+                    <!-- /未登录显示 -->
+                </RelativeLayout>
+            </FrameLayout>
+
+            <!-- 订单管理 -->
+
+            <RelativeLayout
+                android:id="@+id/dl_my_count_center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="50.0dip"
+                android:paddingBottom="14.0dip"
+                android:paddingLeft="14.0dip"
+                android:paddingRight="12.0dip"
+                android:paddingTop="14.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dip"
+                    android:text="我的订单"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffcccccc" />
+            <!-- 地址管理 -->
+
+            <RelativeLayout
+                android:id="@+id/dl_my_address_manage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="50.0dip"
+                android:paddingBottom="14.0dip"
+                android:paddingLeft="14.0dip"
+                android:paddingRight="12.0dip"
+                android:paddingTop="14.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dip"
+                    android:text="我的地址管理"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffcccccc" />
+            <!-- 收藏夹 -->
+
+            <RelativeLayout
+                android:id="@+id/dl_my_favorites_manage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="50.0dip"
+                android:paddingBottom="14.0dip"
+                android:paddingLeft="14.0dip"
+                android:paddingRight="12.0dip"
+                android:paddingTop="14.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dip"
+                    android:text="收藏夹"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffcccccc" />
+            <!-- 检查升级 -->
+
+            <RelativeLayout
+                android:id="@+id/dl_check_update"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="50.0dip"
+                android:paddingBottom="14.0dip"
+                android:paddingLeft="14.0dip"
+                android:paddingRight="12.0dip"
+                android:paddingTop="14.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dip"
+                    android:text="检查升级"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/android_list_idex" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffcccccc" />
+
+            <!-- 退出登录 -->
+
+            <RelativeLayout
+                android:id="@+id/dl_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/dl_logout_text"
+                    style="@style/style_17_FFFFFF_BOLD"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/dl_rl_bottom"
+                    android:layout_below="@id/dl_check_update"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dip"
+                    android:background="@anim/button_long"
+                    android:gravity="center"
+                    android:text="退出登录" />
+            </RelativeLayout>
+            <!-- /退出登录 -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

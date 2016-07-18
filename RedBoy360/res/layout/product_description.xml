@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:background="@drawable/my_shape">
+    <TextView
+        android:id="@id/textName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#0A00FF"
+        android:text="曾经有一段真挚的爱情放在我的面前，我却没有珍惜。直到失去之后，我追悔莫急。如果上天再给我一次机会我一定会对那个女孩说三个字“我爱你”。如果一定要给这个承诺加上一个期限的话，希望是“一万年”"
+        android:textSize="20sp" />
+</LinearLayout>
+</LinearLayout>

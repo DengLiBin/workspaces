@@ -1,0 +1,36 @@
+1454315080754	Convert local variable 'mImageViewList' to field
+1454316662071	Copy file
+1454318326962	Copy file
+1454324080086	Convert local variable 'mWidth' to field
+1454328073691	Convert local variable 'sp' to field
+1454338195010	Copy file
+1454341654915	Delete element
+1454390417949	Convert local variable 'activity' to field
+1454391131877	Copy file
+1454392187572	Delete element
+1454397817857	Copy file
+1454397829306	Rename resource 'btn_tab_news_selector2.xml'
+1454397970419	Copy file
+1454398079743	Copy file
+1454398169764	Copy file
+1454398251677	Copy file
+1454402569303	Convert local variable 'mRootView' to field
+1454402738410	Convert local variable 'mPagerList' to field
+1454404271579	Copy compilation unit
+1454404304794	Copy compilation unit
+1454404382198	Copy compilation unit
+1454404409463	Copy compilation unit
+1454473152029	Rename package 'com.bin.zhbj.domin'
+1454473376036	Rename type 'NewsMenuData'
+1454478155566	Convert local variable 'lvList' to field
+1454478862422	Delete elements
+1454480058168	Convert local variable 'mMenuList' to field
+1454483994660	Copy file
+1454484115093	Copy file
+1454484450395	Convert local variable 'mCurrentItem' to field
+1454486356752	Copy compilation unit
+1454486397198	Copy compilation unit
+1454486409351	Rename type 'PhotoMenuDetailPager2'
+1454486441575	Copy compilation unit
+1454488351231	Convert local variable 'fm' to field
+1454492106634	Convert local variable 'data' to field

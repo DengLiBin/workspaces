@@ -1,0 +1,13 @@
+1453182828063	Convert local variable 'mPref' to field
+1453185529864	Move compilation unit
+1453185535819	Delete element
+1453190628744	Rename resource 'activity_main.xml'
+1453191505454	Convert local variable 'readContacts' to field
+1453194372864	Convert local variable 'mPref' to field
+1453195583843	Convert local variable 'simNumber' to field
+1453367143318	Convert local variable 'tm' to field
+1453367169583	Convert local variable 'listener' to field
+1453367455040	Delete element
+1453456077763	Convert local variable 'mWM' to field
+1453456989827	Convert local variable 'view' to field
+1453457295511	Copy file

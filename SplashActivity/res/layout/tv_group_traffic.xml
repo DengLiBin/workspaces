@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    
+    
+            <LinearLayout
+                   android:layout_marginTop="5dp"
+            style="@style/ll_horizontal_mw_style"
+            >
+
+            <RelativeLayout style="@style/match_parent" >
+
+                <TextView
+                    style="@style/text_green_style"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/app_list"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:id="@+id/iv"
+                    style="@style/wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/traffic_wifi_green" />
+
+                <ImageView
+                    style="@style/wrap_content"
+                    android:layout_alignRight="@id/iv"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/traffic_3g_green" />
+            </RelativeLayout>
+        </LinearLayout>
+
+</merge>

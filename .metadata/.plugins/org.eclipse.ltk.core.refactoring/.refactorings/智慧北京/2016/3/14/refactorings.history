@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;image_demo.jpg&apos; to &apos;drawable-hdpi&apos;&#x0D;&#x0A;- Original project: &apos;智慧北京&apos;&#x0D;&#x0A;- Destination element: &apos;drawable-hdpi&apos;&#x0D;&#x0A;- Original element: &apos;image_demo.jpg&apos;" description="Copy file" element1="res/drawable-hdpi/image_demo.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1459058681452" target="/Clipdrawable/res/drawable-hdpi" units="0" version="1.0"/>
+</session>

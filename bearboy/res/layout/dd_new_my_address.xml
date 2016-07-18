@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 <ScrollView 
+         
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent" >
+       <LinearLayout 
+           android:paddingTop="20.0dip" 
+           android:paddingBottom="20.0dip" 
+           android:focusable="true" 
+           android:focusableInTouchMode="true" 
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+            android:orientation="vertical"> 
+    <LinearLayout
+        android:id="@id/dl_layout_my_address_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+<!--         <EditText
+            android:id="@+id/edittext_my_address_alias"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:background="@null"
+            android:hint="设置一个易记的名字，如“送到公司” “家”"
+            android:lines="1"
+            android:maxLength="10"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" />
+
+        <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" /> -->
+
+        <EditText
+            android:id="@id/dl_edittext_my_address_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="收货人姓名"
+            android:lines="1"
+            android:maxLength="10"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" />
+
+        <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+
+     
+        <EditText
+            android:id="@id/dl_edittext_my_address_mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" />
+
+        <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+
+        <EditText
+            android:id="@id/edittext_my_address_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="固定电话(选填)"
+            android:inputType="phone"
+            android:maxLength="20"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" />
+
+        <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+
+        <RelativeLayout
+            android:id="@id/layout_my_address_areas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15.0dip"
+            android:paddingTop="15.0dip" >
+
+            <TextView
+                android:id="@id/textview_my_address_areas_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                
+                android:paddingLeft="10.0dip"
+                android:paddingRight="20.0dip"
+                android:singleLine="true"
+                android:hint="所在地区"
+                android:textColor="#ff808080"
+            	android:textColorHint="#88808080"
+                android:textSize="17.0sp" />
+            
+            
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15.0dip"
+                android:background="@drawable/android_list_idex" />
+        </RelativeLayout>
+         <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+           <EditText
+            android:id="@id/edittext_my_address_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="详细地址"
+            android:lines="2"
+            android:maxLength="50"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" >
+
+        
+            <requestFocus />
+        </EditText>
+                  <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+
+     
+        <EditText
+            android:id="@id/edittext_my_address_zip_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="邮编"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ff808080"
+            android:textColorHint="#88808080"
+            android:textSize="17.0sp" />
+
+        <View
+            style="@style/my_address_line"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" />
+    </LinearLayout>
+    
+      <TextView 
+          android:textSize="17.0sp" 
+          android:textColor="#ff808080" 
+          android:id="@+id/textview_my_address_payment_title" 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content" 
+          android:paddingLeft="10.0dip" 
+          android:layout_marginTop="10.0dip" 
+          android:text="支付及配送" 
+          android:background="@android:color/darker_gray" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_my_address_payment" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/textview_my_address_payment_title">
+                <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/radiogroup_my_address_payment" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="17.0sp" android:textColor="#ffeda2a2" android:gravity="center" android:id="@+id/radiobutton_my_address_payment_online" android:background="@drawable/address_radiobutton_background_red_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:button="@null" android:text="在线支付" android:layout_weight="1.0" />
+                    <RadioButton android:textSize="17.0sp" android:textColor="#ffeda2a2" android:gravity="center" android:id="@+id/radiobutton_my_address_payment_offline" android:background="@drawable/address_radiobutton_background_red_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:button="@null" android:text="货到付款" android:layout_weight="1.0" />
+                    <RadioButton android:textSize="17.0sp" android:textColor="#ffeda2a2" android:gravity="center" android:id="@+id/radiobutton_my_address_payment_pack" android:background="@drawable/address_radiobutton_background_red_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:button="@null" android:text="上门自提" android:layout_weight="1.0" />
+                </RadioGroup>
+                <TextView android:textSize="17.0sp" android:textColor="#fff5ae5b" android:id="@+id/textview_my_address_payment_prompt" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="京配区域内由京东快递配送，京配区域外由第三方快递配送" />
+                <RelativeLayout android:gravity="center_horizontal" android:id="@+id/layout_my_address_payment_pack" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@+id/layout_my_address_payment_pack_select" android:background="@drawable/cart_item_single_top_bg" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="17.0sp" android:textColor="#ff808080" android:id="@+id/textview_my_address_payment_pack_name" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请选择自提点" android:singleLine="true" android:layout_centerVertical="true" />
+                        <ImageView android:background="@drawable/android_list_idex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+    
+            <RelativeLayout android:id="@+id/layout_my_address_defalut" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/layout_my_address_payment">
+                <RelativeLayout android:id="@+id/layout_my_address_defalut_set" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17.0sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="设为默认" android:singleLine="true" android:layout_centerVertical="true" />
+                    <CheckBox android:id="@+id/checkbox_my_address_defalut" android:background="@drawable/address_default_check_selector" android:layout_width="100.0dip" android:layout_height="34.0dip" android:layout_marginRight="15.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:id="@+id/line_my_address_defalut" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/layout_my_address_defalut_set" style="@style/my_address_line" />
+                <TextView android:textSize="17.0sp" android:textColor="#ff808080" android:id="@+id/textview_my_address_defalut_desc" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="默认地址将作为轻松购地址，设置好下单方式即可在商品页面直接下单 ，购物从此变得简单快乐。" android:layout_below="@id/line_my_address_defalut" />
+                <TextView android:textSize="17.0sp" android:textColor="#fff5ae5b" android:id="@+id/textview_my_address_defalut_oper" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="不会操作吗？请点我" android:singleLine="true" android:layout_below="@id/textview_my_address_defalut_desc" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+   		</LinearLayout>
+	 </ScrollView>
+</LinearLayout>

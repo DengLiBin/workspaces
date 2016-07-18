@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    style="@style/match_parent"
+    android:background="@drawable/log_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="30dp"
+        style="@style/wrap_content"
+        android:text="12"
+        android:textSize="150sp" 
+        android:textColor="@color/textcolor"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/tv_version"
+        style="@style/wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/version_name"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        style="@style/wrap_content"
+        android:layout_marginTop="10dp" />
+    
+    
+    <ImageView 
+        android:id="@+id/iv_anim"
+        android:layout_height="120dp"
+        style="@style/wrap_content"
+        android:background="@drawable/slogan_anim"
+        />
+    
+    
+    <TextView 
+        android:gravity="center"
+        android:text="@string/declare"
+        style="@style/text_gray_style"
+        android:textSize="10sp"
+        />
+    
+    <TextView 
+         android:gravity="center"
+        android:text="@string/all_rights_reserved"
+        style="@style/text_gray_style"
+          android:textSize="10sp"
+        />
+
+</LinearLayout>

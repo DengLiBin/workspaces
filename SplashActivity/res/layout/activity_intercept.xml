@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_weight="1"
+    android:id="@+id/fl"
+    style="@style/match_parent" >
+    <!-- sms -->
+
+    <LinearLayout
+        android:id="@+id/ll_sms"
+        style="@style/match_parent"
+        android:padding="10dp" >
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:background="@drawable/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/wm_parent_hw_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout style="@style/wm_parent_hw_content" >
+
+                    <TextView
+                        android:id="@+id/sms_tv_model"
+                        style="@style/wm_parent_hw_content"
+                        android:background="@drawable/function_button_disabled"
+                        android:paddingLeft="10dp"
+                        android:text="@string/intercept_lable"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/sms_iv_handle"
+                        style="@style/wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/intercept_handle" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                style="@style/match_parent"
+                android:layout_marginTop="10dp" >
+
+                <ListView
+                    android:id="@+id/sms_lv"
+                    style="@style/lv_style"
+                    android:visibility="invisible" >
+                </ListView>
+
+                <TextView
+                    android:id="@+id/sms_tv_empty"
+                    style="@style/match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/intercept_sms_describe_empty"
+                    android:textSize="15sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- phone -->
+
+    <LinearLayout
+        android:id="@+id/ll_phone"
+        style="@style/match_parent"
+        android:padding="10dp" >
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:background="@drawable/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/wm_parent_hw_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout style="@style/wm_parent_hw_content" >
+
+                    <TextView
+                        android:id="@+id/phone_tv_model"
+                        style="@style/wm_parent_hw_content"
+                        android:background="@drawable/function_button_disabled"
+                        android:paddingLeft="10dp"
+                        android:text="@string/intercept_lable"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/phone_iv_handle"
+                        style="@style/wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/intercept_handle" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                style="@style/match_parent"
+                android:layout_marginTop="10dp" >
+
+                <ListView
+                    android:id="@+id/phone_lv"
+                    style="@style/lv_style"
+                    android:visibility="invisible" >
+                </ListView>
+
+                <TextView
+                    android:id="@+id/phone_tv_empty"
+                    style="@style/match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/intercept_phone_describe_empty"
+                    android:textSize="15sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- roster -->
+
+    <LinearLayout
+        android:id="@+id/ll_roster"
+        style="@style/match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:background="@drawable/tab_bg"
+            android:orientation="vertical" >
+
+            <com.jayqqaa12.mobilesafe.view.RosterSwitchButton
+                android:id="@+id/roster_bt_select"
+                style="@style/wm_parent_hw_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp" />
+
+            <View style="@style/black_line" />
+
+            <View style="@style/black_shade_line" />
+
+            <FrameLayout style="@style/match_parent" >
+
+                <!-- black -->
+
+                <LinearLayout
+                    android:id="@+id/roster_ll_black"
+                    style="@style/match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/roster_ll_black_add"
+                        style="@style/wm_parent_hw_content"
+                        android:background="@drawable/tab_bg_selector" >
+
+                        <ImageView
+                            style="@style/lv_icon_style"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/add" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                style="@style/lv_text_style"
+                                android:text="@string/add_black_list"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/black_line" />
+
+                    <View style="@style/black_shade_line" />
+
+                    <FrameLayout style="@style/wm_parent_hw_content" >
+
+                        <FrameLayout style="@style/wm_parent_hw_content" >
+
+                            <ListView
+                                android:id="@+id/roster_black_lv"
+                                style="@style/lv_style" >
+                            </ListView>
+
+                            <LinearLayout
+                                android:id="@+id/roster_black_empty"
+                                style="@style/wm_parent_hw_content"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    style="@style/wm_parent_hw_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="50dp"
+                                    android:src="@drawable/black_empty" />
+
+                                <TextView
+                                    style="@style/wm_parent_hw_content"
+                                    android:gravity="center"
+                                    android:text="@string/intercept_black_describe"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- white -->
+
+                <LinearLayout
+                    android:id="@+id/roster_ll_white"
+                    style="@style/match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible" >
+
+                    <LinearLayout
+                        android:id="@+id/roster_ll_white_add"
+                        style="@style/wm_parent_hw_content"
+                        android:background="@drawable/tab_bg_selector" >
+
+                        <ImageView
+                            style="@style/lv_icon_style"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/add" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                style="@style/lv_text_style"
+                                android:text="@string/add_white_list"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/black_line" />
+
+                    <View style="@style/black_shade_line" />
+
+                    <FrameLayout style="@style/wm_parent_hw_content" >
+
+                        <FrameLayout style="@style/wm_parent_hw_content" >
+
+                            <ListView
+                                android:id="@+id/roster_white_lv"
+                                style="@style/lv_style" >
+                            </ListView>
+
+                            <LinearLayout
+                                android:id="@+id/roster_white_empty"
+                                style="@style/wm_parent_hw_content"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    style="@style/wm_parent_hw_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="50dp"
+                                    android:src="@drawable/white_empty" />
+
+                                <TextView
+                                    style="@style/wm_parent_hw_content"
+                                    android:gravity="center"
+                                    android:text="@string/intercept_white_describe"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- setting -->
+
+    <LinearLayout
+        android:id="@+id/ll_setting"
+        style="@style/match_parent"
+        android:padding="10dp" >
+
+        <LinearLayout
+            style="@style/wm_parent_hw_content"
+            android:background="@drawable/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/wm_parent_hw_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/lv_text_style"
+                        android:text="@string/intercept_setting_label_server"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/setting_tv_server_enable"
+                        style="@style/wm_parent_hw_content"
+                        android:text="@string/all_rights_reserved"
+                        android:textColor="@color/textcolor"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    style="@style/match_parent"
+                    android:gravity="center|right" >
+
+                    <CheckBox
+                        android:id="@+id/setting_cb_server_enable"
+                        style="@style/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View style="@style/black_line" />
+
+            <View style="@style/black_shade_line" />
+
+            <LinearLayout style="@style/wm_parent_hw_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/lv_text_style"
+                        android:text="@string/intercept_setting_label_nofiti"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/setting_tv_nofiti_enable"
+                        style="@style/wm_parent_hw_content"
+                        android:text="@string/all_rights_reserved"
+                        android:textColor="@color/textcolor"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    style="@style/match_parent"
+                    android:gravity="center|right" >
+
+                    <CheckBox
+                        android:id="@+id/setting_cb_nofiti_enable"
+                        style="@style/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View style="@style/black_line" />
+
+            <View style="@style/black_shade_line" />
+
+            <ListView
+                android:id="@+id/setting_lv"
+                style="@style/lv_style" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

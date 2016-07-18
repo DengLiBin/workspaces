@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/lost_guide3_ll"
+    style="@style/match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/main_title_style"
+        android:text="@string/lost_lable_guide3" />
+
+    <ImageView style="@style/devide_line" />
+
+    <TextView
+        style="@style/text_gray_style"
+        android:layout_marginTop="20dip"
+        android:text="@string/lost_lable_guide3_phone" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/lost_guide3_et_number"
+      style="@style/wm_parent_hw_content"
+        android:layout_marginTop="20dip"
+        android:hint="@string/lost_lable_guide3_select" />
+
+    <Button
+        android:background="@drawable/button_selector"
+        android:id="@+id/lost_guide3_bt_select_contact"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dip"
+        android:text="@string/contact_lable" />
+
+    <RelativeLayout
+        style="@style/match_parent"
+        android:layout_marginTop="20dip" >
+        <LinearLayout
+            style="@style/wm_parent_hw_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView
+                style="@style/wrap_content"
+                android:src="@drawable/phone" />
+
+            <LinearLayout
+                style="@style/wm_parent_hw_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dip"
+                android:gravity="center_horizontal" >
+
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_off" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

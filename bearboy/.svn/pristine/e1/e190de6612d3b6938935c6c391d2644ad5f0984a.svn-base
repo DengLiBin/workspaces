@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ExpandableListView
+        android:id="@+id/dl_my_search_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.60" >
+    </ExpandableListView>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dl_my_search_iv_delete"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:src="@drawable/search_button_delete_selector" />
+    </LinearLayout>
+
+</LinearLayout>

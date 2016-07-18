@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/lv_product_list1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_item_line"
+        android:listSelector="@anim/index_item_bg"
+        android:scrollbars="none" />
+
+    <ListView
+        android:id="@+id/lv_product_list2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_item_line"
+        android:listSelector="@anim/index_item_bg"
+        android:scrollbars="none" />
+
+    <ListView
+        android:id="@+id/lv_product_list3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_item_line"
+        android:listSelector="@anim/index_item_bg"
+        android:scrollbars="none" />
+
+    <ListView
+        android:id="@+id/lv_product_list4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listview_item_line"
+        android:listSelector="@anim/index_item_bg"
+        android:scrollbars="none" />
+
+</RelativeLayout>

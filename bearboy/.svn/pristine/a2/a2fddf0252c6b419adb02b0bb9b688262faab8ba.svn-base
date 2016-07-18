@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    android:background="@anim/shape_rounded_rectangle"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="5.0dip" >
+
+    <!-- "orderid": "412423145",                //订单ID -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/dl_tv_order_id"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="订单ID:" />
+
+        <TextView
+            android:id="@id/dl_tv_order_id_entry"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="412423145" />
+    </LinearLayout>
+    <!-- "status": "未处理",                    //订单显示状态 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/dl_tv_order_status"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="订单显示状态" />
+
+        <TextView
+            android:id="@id/dl_tv_order_status_entry"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="未处理" />
+    </LinearLayout>
+    <!-- "time": "2011/10/100 12:16:40",         //下单时间 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/dl_tv_order_time"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="下单时间:" />
+
+        <TextView
+            android:id="@id/dl_tv_order_time_entry"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="2011/10/100 12:16:40" />
+    </LinearLayout>
+    <!-- "price": "1234.23",                    //订单金额 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/dl_tv_order_price"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="订单金额:" />
+
+        <TextView
+            android:id="@id/dl_tv_order_price_entry"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="1234.23" />
+    </LinearLayout>
+    <!-- "flag":"1"                           //订单标识，1=>可删除可修改 2=>不可修改 3=>已完成 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/dl_tv_order_flag"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="订单标识:" />
+
+        <TextView
+            android:id="@id/dl_tv_order_flag_entry"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="可删除可修改" />
+    </LinearLayout>
+
+</LinearLayout>

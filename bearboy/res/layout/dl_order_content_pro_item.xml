@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dip"
+    android:background="@anim/shape_rounded_rectangle"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@id/dl_iv_order_content_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dip"
+        android:src="@drawable/icon" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="必恩威（U盘）" />
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="数量：1个" />
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="金额：49.00" />
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_attr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="属性：" />
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_uplimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="购买上限：" />
+
+        <TextView
+            android:id="@id/dl_tv_order_content_pro_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="是否为赠品：" />
+    </LinearLayout>
+
+</LinearLayout>

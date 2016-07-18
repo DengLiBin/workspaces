@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adsasdqwd" >
+
+    <TextView
+        android:id="@+id/tv_xiaowenshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:shadowColor="#ECFF00"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="欢迎光临"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_splash_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_splash_update"
+        android:layout_below="@id/tv_xiaowenshi"
+        android:layout_marginTop="10dip"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#ECFF00"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="熊孩子电子商场"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

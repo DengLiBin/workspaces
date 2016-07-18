@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       style="@style/lv_item_style"
+    android:divider="@color/black" >
+
+    <LinearLayout
+        style="@style/ll_horizontal_mw_style"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/lv_iv"
+            style="@style/lv_icon_style"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp" />
+
+        <LinearLayout style="@style/ll_vertical_ww_style" >
+
+            <TextView
+                android:id="@+id/lv_tv_1"
+                style="@style/text_white_style"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lv_tv_2"
+                style="@style/text_gray_style"
+                android:text="122"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout style="@style/wm_parent_hw_content" >
+            
+            
+            
+
+            <CheckBox
+                android:id="@+id/lv_cb"
+                style="@style/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,397 @@
+<resources>
+
+    <!-- app -->
+    <string name="app_name">MoblieSafe</string>
+    <string name="menu_settings">Settings</string>
+    <string name="shu">12叔</string>
+    <string name="declare">Copyright 2012~2022 12叔网络</string>
+    <string name="all_rights_reserved">All Rights Reserved.</string>
+    <string name="we_protected_yourself">12叔正在保护您的手机</string>
+
+    <!-- other -->
+    <string name="already_open">已开启</string>
+    <string name="un_open">未开启</string>
+    <string name="ok">确定</string>
+    <string name="name">名称</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="sms">短信</string>
+    <string name="phone">电话</string>
+    <string name="send_sms">发送短信</string>
+    <string name="play_phone">拨打电话</string>
+    <string name="setting">设置</string>
+    <string name="model">模式</string>
+    <string name="number">号码</string>
+    <string name="black_list">黑名单</string>
+    <string name="white_list">白名单</string>
+    <string name="black_white_list">黑白名单</string>
+    <string name="add">添加</string>
+    <string name="addOrEdit">添加或编辑</string>
+    <string name="add_white_list">添加白名单</string>
+    <string name="add_black_list">添加黑名单</string>
+    <string name="intercept">拦截</string>
+    <string name="download">正在下载</string>
+    <string name="can_empty">可以为空</string>
+    <string name="more">更多</string>
+    <string name="more_option">更多操作</string>
+    <string name="check_all">全选</string>
+    <string name="cancel_check_all">取消全选</string>
+    <string name="find">查找</string>
+    <string name="install">安装</string>
+    <string name="uninstall">卸载</string>
+    <string name="already_install">已安装</string>
+    <string name="un_install">未安装</string>
+    <string name="already_uninstall">已卸载</string>
+    <string name="sdcard">SD卡</string>
+    <string name="memory">内存</string>
+    <string name="phone_memory">手机内存</string>
+    <string name="location">位置</string>
+    <string name="in_search">正在搜索</string>
+    <string name="all_clean">一键清理</string>
+    <string name="app_list">应用列表</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="pause">暂停</string>
+
+    <!-- input -->
+    <string name="input">请输入</string>
+    <string name="input_method">添加方式</string>
+    <string name="input_contact">从联系人导入</string>
+    <string name="input_yourself">手动输入</string>
+    <string name="input_call_log">从通话记录导入</string>
+    <string name="input_sms_log">从短信记录导入</string>
+    <string name="intercept_method_loaction">按区域拦截</string>
+    <string name="intercept_method_numbers">按号码段拦截</string>
+
+    <!-- version -->
+    <string name="version_name">版本号</string>
+    <string name="version_info_address">http://10.0.2.3:8080/version.xml</string>
+    <string name="version_number_unkown">当前版本未知</string>
+    <string name="version_find_new">发现新版本</string>
+
+    <!-- main -->
+    <string-array name="main_icon_titles">
+        <item>个人空间</item>
+        <item>通讯卫士</item>
+        <item>软件管理</item>
+        <item>任务管理</item>
+        <item>流量管理</item>
+        <item>手机杀毒</item>
+        <item>系统优化</item>
+        <item>高级工具</item>
+        <item>设置中心</item>
+    </string-array>
+
+    <!-- password -->
+    <string name="pwd_forget">忘记密码？</string>
+    <string name="pwd_set">设置密码</string>
+    <string name="pwd_password">密码</string>
+    <string name="pwd_repassword">再次输入密码</string>
+    <string name="pwd_input">请输入密码</string>
+
+    <!-- instruction -->
+    <string name="instruction_title_location">dingwei#你的防盗密码</string>
+    <string name="instruction_title_at_once_location">lijidingwei#你的防盗密码</string>
+    <string name="instruction_title_lockscreen">suoping#你的防盗密码</string>
+    <string name="instruction_title_alram">baojing#你的防盗密码</string>
+    <string name="instruction_title_wipeData">qingkong#你的防盗密码</string>
+    <string name="instruction_title_reboot">chongqi#你的防盗密码</string>
+    <string name="instruction_describe_location">手机被盗号后 \n可用任意手机 发送指令 到被盗手机\n当对方锁屏时定位你的手机\n防止GPS被发现 推荐使用\n </string>
+    <string name="instruction_describe_at_once_location">手机被盗号后 \n可用任意手机 发送指令 到被盗手机\n立即定位你的手机 \n有可能被发现\n建议发送锁屏指令后再使用</string>
+    <string name="instruction_describe_lockscreen">手机被盗号后 \n可用任意手机 发送指令 到被盗手机\n将用设置的锁屏密码锁屏 默认锁屏密码为123456</string>
+    <string name="instruction_describe_alram">手机被盗号后 \n可用任意手机 发送指令 到被盗手机\n 这时被盗手机将发出报警铃声\n帮助你快速找到手机</string>
+    <string name="instruction_describe_wipeData">手机被盗号后 \n可用任意手机 发送指令 到被盗手机\n 使手机恢复出厂模式 \n保护你的信息安全</string>
+    <string name="instruction_describe_reboot">发送指令到被盗手机\n 立即重启！</string>
+
+    <!-- lost protected -->
+
+    <string name="lost_lable">手机防盗保护</string>
+    <string name="lost_describe">保护你的手机安全</string>
+    <string name="lost_lable_un_protected">没有开启防盗保护</string>
+    <string name="lost_lable_on_protected">防盗保护已开启</string>
+
+    <string-array name="lost_lables">
+        <item>安全手机</item>
+        <item>设置向导</item>
+        <item>防盗指令</item>
+        <item>更改密码</item>
+        <item>设置白名单</item>
+    </string-array>
+    <string-array name="lost_describes">
+        <item>未设置</item>
+        <item>设置防盗信息</item>
+        <item>发送指令，远程遥控</item>
+        <item>更改防盗密码</item>
+        <item>更换白名单中的卡，不提醒</item>
+    </string-array>
+
+    <!-- lost_sms -->
+    <string name="lost_sms_sim_change">sim卡 发生改变  叔觉得手机可能被盗 </string>
+    <string name="lost_sms_gps_use">对方还在使用中\n为避免暴露 先不查gps\n 请稍等</string>
+
+    <!-- lost_settings -->
+
+    <string name="lost_lable_guide1">欢迎使用手机防盗</string>
+    <string name="lost_lable_guide2">手机卡绑定</string>
+    <string name="lost_lable_guide3">设置安全号码</string>
+    <string name="lost_lable_guide4">恭喜你,设置完成</string>
+    <string name="lost_lable_guide1_title">您的手机防盗卫士:</string>
+    <string name="lost_lable_guide1_sim">sim卡变更报警</string>
+    <string name="lost_lable_guide1_gps">gps追踪</string>
+    <string name="lost_lable_guide1_remove">远程销毁数据</string>
+    <string name="lost_lable_guide1_lockscreen">远程锁屏</string>
+    <string name="lost_lable_guide2_bind">手机卡绑定</string>
+    <string name="lost_describe_guide2">如果sim绑定\n下次重启手机\n如果sim变更\n就会发送报警短信</string>
+    <string name="lost_lable_guide2_already_bind">已绑定</string>
+    <string name="lost_lable_guide2_on_bind">点击绑定</string>
+    <string name="lost_lable_guide2_unbind">没有绑定</string>
+    <string name="lost_lable_guide2_off_bind">解除绑定</string>
+    <string name="lost_describe_guide3">sim卡更换后\n会把报警短信\n发送到该号码上</string>
+    <string name="lost_lable_guide3_phone">请输入或者选择安全手机号码</string>
+    <string name="lost_lable_guide3_select">选择联系人</string>
+    <string name="lost_lable_guide4_finish">设置完成</string>
+    <string name="lost_lable_guide4_at_once">马上开启保护  > > > ></string>
+    <string name="lost_lable_guide4_open">点击开启</string>
+    <string name="lost_lable_guide4_already">已开启</string>
+
+    <!-- lost_settings_sim -->
+
+    <string name="lost_sim_lable">SIM卡白名单</string>
+    <string name="lost_sim_lable_add">添加当前SIM卡</string>
+    <string name="lost_sim_dialog_lable">SIM卡已存在</string>
+    <string name="lost_sim_describe">添加信任的SIM卡号\n手机换卡不会收到防盗提示</string>
+    <string name="lost_sim_add_lable_number">当前SIM卡串号</string>
+
+    <!-- contact -->
+    <string name="contact_lable">请选择</string>
+    <string name="contact_lable_name">联系人姓名</string>
+    <string name="contact_lable_number">联系人号码</string>
+
+    <!-- tools -->
+    <string name="tools_lable">高级工具</string>
+
+    <!-- communication -->
+    <string name="communication_lable">通信管理</string>
+
+    <string-array name="communication_lables">
+        <item>通话管理</item>
+        <item>短信管理</item>
+        <item>骚扰拦截</item>
+    </string-array>
+    <string-array name="communication_describes">
+        <item>IP拨号，手机归属地</item>
+        <item>快捷短信，扣费查询</item>
+        <item>拦截骚扰，拒绝污染从我做起</item>
+    </string-array>
+
+    <!-- communication_phone -->
+    <string name="phone_lable">通话管理</string>
+
+    <string-array name="phone_lables">
+        <item>手机归属地查询</item>
+        <item>IP拨号</item>
+        <item>来电归属地显示</item>
+        <item>常用电话查询</item>
+    </string-array>
+    <string-array name="phone_describes">
+        <item>查询电话号码的归属地信息</item>
+        <item>为您节省长途资费</item>
+        <item>设置归属地来电显示信息</item>
+        <item>常用服务电话</item>
+    </string-array>
+
+    <!-- communication_sms -->
+
+    <string name="sms_lable">短信管理</string>
+
+    <string-array name="sms_lables">
+        <item>快捷短信</item>
+        <item>扣費查詢</item>
+        <item>短信备份还原</item>
+        <item>服务信息管理</item>
+    </string-array>
+    <string-array name="sms_describes">
+        <item>在手机桌面快速查看或回复新短信</item>
+        <item>快速查询您的相关扣费业务</item>
+        <item>将短信备份到SD卡，避免丢失</item>
+        <item>管理手机上的所有服务类短信</item>
+    </string-array>
+
+    <!-- communication_sms_backup -->
+    <string name="sms_backup_lable">短信备份还原</string>
+    <string name="sms_backup_describe_last_time">上次备份时间 \n</string>
+    <string name="sms_backup_describe_not_backup">还没有备份哦</string>
+    <string name="sms_backup_lable_backup">短信备份</string>
+    <string name="sms_backup_lable_restore">短信还原</string>
+    <string name="sms_backup_describe_backup">将短信备份到SD卡</string>
+    <string name="sms_backup_describe_restore">从SD卡还原短信</string>
+    <string name="sms_backup_describe">重要短信备份 \n永不丢失</string>
+    <string name="sms_backup_describe_backup_success">备份成功 ，本次备份短信数量为 </string>
+    <string name="sms_backup_describe_restore_success">还原成功 ，本次还原短信数量为 </string>
+    <string name="sms_bakcup_describer_backup_fail">备份失败,SD卡不存在或不可读</string>
+    <string name="sms_bakcup_describer_restore_fail">还原失败,SD卡不存在或文件丢失</string>
+
+    <!-- communication_phone_location_query -->
+    <string name="phone_location_query_lable">手机号码归属地查询</string>
+    <string name="phone_location_query_lable_input">输入要您要查询的号码</string>
+    <string name="phone_location_query_lable_output">归属地信息</string>
+    <string name="phone_location_query_lable_open">开启归属地自动显示</string>
+    <string name="phone_location_query_lable_timeout">归属地显示时长</string>
+    <string name="phone_location_query_lable_location">归属地位置</string>
+    <string name="phone_location_query_lable_style">归属地提示框风格</string>
+    <string name="phone_location_query_lable_error">号码输入有误</string>
+
+    <!-- communication_phone_location_displays -->
+    <string name="phone_location_display_lable">来电归属地显示设置</string>
+
+    <string-array name="phone_location_display_lables">
+        <item>归属地提示显示时间</item>
+        <item>归属地显示位置</item>
+        <item>归属地显示风格</item>
+    </string-array>
+    <string-array name="phone_location_display_describes">
+        <item>通话时一直显示</item>
+        <item>设置归属地提示框显示位置</item>
+        <item>默认</item>
+    </string-array>
+
+    <string name="phone_location_display_lable_open">开启归属地显示</string>
+    <string name="phone_location_display_position_lable">归属地显示位置</string>
+    <string name="phone_location_display_position_describe">拖动显示框可改变显示位置</string>
+
+    <string-array name="phone_location_display_timeout_lables">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>一直显示</item>
+    </string-array>
+    <string-array name="phone_location_display_stytle_lables">
+        <item>默认</item>
+        <item>活力橙</item>
+        <item>卫士蓝</item>
+        <item>大叔灰</item>
+        <item>苹果绿</item>
+        <item>半透明</item>
+    </string-array>
+
+    <!-- communication_intercept -->
+
+    <string name="intercept_lable">当前拦截模式:</string>
+    <string name="intercept_model_lable_intelligent">智能模式</string>
+    <string name="intercept_model_lable_black">黑名单模式</string>
+    <string name="intercept_model_lable_white">白名单模式</string>
+    <string name="intercept_model_lable_reject">拒接模式</string>
+    <string name="intercept_model_lable_undisturb">免打扰模式</string>
+    <string name="intercept_model_lable_user_defined">自定义模式</string>
+    <string name="intercept_model_lable_user_defined_edit">自定义模式</string>
+
+    <string-array name="intercept_model_describes">
+        <item>拦截黑名单。智能判断陌生短信和电话</item>
+        <item>只拦截黑名单的电话和短信</item>
+        <item>只接受白名单的短信和电话</item>
+        <item>拦截所有的短信和电话</item>
+        <item>拦截黑名单和陌生人的电话和短信</item>
+        <item>编辑的自定义模式</item>
+    </string-array>
+
+    <string name="intercept_sms_describe_empty">短信拦截记录为空</string>
+    <string name="intercept_phone_describe_empty">电话拦截记录为空</string>
+    <string name="intercept_black_describe">添加要拦截的号码和地区\n黑名单中的来电默认全部拦截</string>
+    <string name="intercept_white_describe">添加要新人的号码和地区\n来电默认不拦截</string>
+    <string name="intercept_setting_label_server">开启拦截服务</string>
+    <string name="intercept_setting_label_nofiti">通知栏提示拦截信息</string>
+
+    <string-array name="intercept_setting_lables">
+        <item>拦截模式</item>
+        <item>夜间防打扰模式</item>
+        <item>拦截记录保存时间</item>
+        <item>来电拦截方式</item>
+    </string-array>
+    <string-array name="intercept_setting_derscribes">
+        <item>当前模式</item>
+        <item>未开启</item>
+        <item>永久保存</item>
+        <item>单击选择拦截方式</item>
+    </string-array>
+
+    <!-- software install manager -->
+
+    <string name="software_uninstall_label">软件卸载</string>
+    <string name="software_uninstall_label_memory">内存可用</string>
+    <string name="software_uninstall_label_sdcard">SD卡可用</string>
+
+    <string-array name="software_uninstall_labels">
+        <item>我安装的软件</item>
+        <item>预装软件</item>
+        <item>系统自带软件</item>
+    </string-array>
+    <string-array name="software_uninstall_describes">
+        <item>自己安装的软件，卸载不需要Root权限\n可根据您的需要自由卸载</item>
+        <item>以刷机方式内置到系统里的第三方软件\n卸载需要Root权限</item>
+        <item>Android系统自带软件 \n卸载休要Root权限\n卸载可能会导致系统崩溃，不建议卸载</item>
+    </string-array>
+
+    <string name="software_uninstall_label_my_software">我安装的软件</string>
+    <string name="software_uninstall_label_pre_software">预装软件</string>
+    <string name="software_uninstall_label_system_software">系统软件</string>
+    <string name="software_uninstall_describe_my_software">自己安装的软件，卸载不需要Root权限\n可根据您的需要自由卸载</string>
+    <string name="software_uninstall_describe_pre_software">以刷机方式内置到系统里的第三方软件\n卸载需要Root权限</string>
+    <string name="software_uninstall_describe_system_software">Android系统自带软件 \n卸载需要Root权限\n卸载可能会导致系统崩溃，不建议卸载</string>
+    <string name="software_uninstall_label_uninstall">卸载软件</string>
+    <string name="software_uninstall_label_info">详细信息</string>
+    <string name="software_uninstall_label_start">启动软件</string>
+
+    <!-- software apk manager -->
+
+    <string name="software_apk_label">安装包管理</string>
+    <string name="software_apk_label_count">安装包数量</string>
+    <string name="software_apk_label_space">占用空间</string>
+
+    <!-- myself space manger -->
+
+    <string name="space_label">个人空间</string>
+    <string name="space_friend_label">我的基友</string>
+    <string name="space_lock_label">程序锁</string>
+    <string name="space_friend_describe">保护你的隐私信息</string>
+    <string name="space_lock_describe">加密你的手机应用</string>
+
+    <!-- space lock -->
+
+    <string name="space_lock_label_lock">已锁定程序</string>
+    <string name="space_lock_label_unlock">未锁定程序</string>
+
+    <!-- process manager -->
+
+    <string name="process_label">进程管理</string>
+    <string name="process_label_user">用户进程</string>
+    <string name="process_label_system">系统进程</string>
+    <string name="process_label_running_process">运行中进程</string>
+    <string name="process_label_memory">剩余/总内存</string>
+    <string name="process_setting_label">进程清理设置</string>
+    <string name="process_setting_label_lock">锁屏时清理进程</string>
+    <string name="process_setting_white_label_roster">进程白名单</string>
+
+    <!-- commountion  traffic -->
+
+    <string name="traffic_label_firewall">网络防火墙</string>
+    <string name="traffic_label_details">流量详情</string>
+    <string name="traffic_label_top">流量排行</string>
+    <string name="traffic_label_unit">单位:MB</string>
+    <string name="traffic_top_label_all">总流量</string>
+    <string name="traffic_top_label_today">当日流量</string>
+
+    <!-- antivirus -->
+
+    <string name="antivirus_label">手机杀毒</string>
+    <string name="antivirus_label_kill">一键杀毒</string>
+    <string name="antivirus_label_kill_date">上次查杀时间</string>
+    <string name="antivirus_describer">经常杀毒有利用手机安全</string>
+
+    <!-- antivirus  settings -->
+    <string name="antivirus_settings_label_protected_file">文件监控</string>
+    <string name="antivirus_settings_label_protected_install">软件安装监控</string>
+    <string name="antivirus_settings_label_protected_start">软件启动监控</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="280dp"
+    android:background="@drawable/tab_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        style="@style/wm_parent_hw_content"
+        android:layout_height="40dp"
+        >
+        <ImageView
+            android:layout_marginTop="5dp" 
+            style="@style/wrap_content"
+            android:src="@drawable/dialog_logo"
+             />
+        
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            style="@style/main_title_style"
+            android:text="@string/more_option"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dip"
+        android:layout_height="170dip"
+        android:padding="5dp"
+        android:background="@color/dialog"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_contact_delete"
+            style="@style/dialog_input_text_style"
+            android:text="@string/delete" />
+
+
+        <TextView
+             android:id="@+id/dialog_contact_edit"
+            style="@style/dialog_input_text_style"
+            android:text="@string/edit" />
+
+
+        <TextView
+               android:id="@+id/dialog_contact_phone"
+            style="@style/dialog_input_text_style"
+            android:text="@string/play_phone" />
+
+
+        <TextView
+               android:id="@+id/dialog_contact_sms"
+            style="@style/dialog_input_text_style"
+            android:text="@string/send_sms" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

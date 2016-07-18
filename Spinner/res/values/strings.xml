@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spinner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="books">
+        <item>疯狂java讲义</item>
+        <item>疯狂android讲义</item>
+        <item>疯狂ajax讲义</item>
+        <item>疯狂xml讲义</item>
+    </string-array>
+
+</resources>

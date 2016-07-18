@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/lv_item_style" >
+
+    <LinearLayout style="@style/ll_horizontal_mw_style" >
+
+        <RelativeLayout style="@style/match_parent" >
+
+            <ImageView
+                android:id="@id/lv_iv"
+                android:src="@drawable/icon"
+                style="@style/lv_icon_style"
+                android:layout_alignParentLeft="true"
+            />
+            
+            
+            <TextView
+                android:id="@id/lv_tv_1"
+                style="@style/text_white_style"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/lv_iv"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:text="12" />
+            
+            
+
+            <TextView
+                android:id="@+id/lv_tv_3"
+                style="@style/wrap_content"
+                    android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                    android:text="0.00"
+                />
+
+            <TextView
+                android:id="@+id/lv_tv_2"
+                style="@style/wrap_content"
+                android:layout_alignRight="@id/lv_tv_3"
+                android:layout_marginRight="50dp"
+                    android:layout_centerVertical="true"
+                android:text="0.00" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

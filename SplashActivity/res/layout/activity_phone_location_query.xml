@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style"
+    >
+    
+    <include layout="@layout/title_1"/>
+
+    <TextView
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/phone_location_query_lable_input"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_input"
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/phone_location_query_lable_output"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_output"
+        style="@style/wm_parent_hw_content"
+        android:gravity="center"
+        android:height="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:background="@color/black"
+         />
+
+</LinearLayout>

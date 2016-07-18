@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/home_backgroud">   
+    <ProgressBar
+        android:id="@+id/pb_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@+id/sv_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+		   <LinearLayout
+			   android:layout_width="fill_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10.0dip"
+			   android:layout_marginRight="10.0dip"
+			   android:layout_marginTop="5.0dip"
+			   android:background="@anim/shape_rounded_rectangle"
+			   android:orientation="vertical"  >
+		        
+		       <RelativeLayout
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:padding="10dp" >
+					<TextView
+					    android:id="@+id/tv_expressway"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:textColor="#000000"
+					    android:text="发货方式："/>
+					<TextView
+					    android:id="@+id/tv_way"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_toRightOf="@id/tv_expressway"
+					    android:text="快递"/>
+				</RelativeLayout>
+				
+				<RelativeLayout
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:padding="10dp" >
+					<TextView
+					    android:id="@+id/tv_express_compeny"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:textColor="#000000"
+					    android:text="物流公司："/>
+					<TextView
+					    android:id="@+id/tv_compeny"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_toRightOf="@id/tv_express_compeny"
+					    android:text="韵达快递"/>
+				</RelativeLayout>
+				<RelativeLayout
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:padding="10dp" >
+					<TextView
+					    android:id="@+id/tv_order_number"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:textColor="#000000"
+					    android:text="运单号码："/>
+					<TextView
+					    android:id="@+id/tv_ordernumber"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_toRightOf="@id/tv_order_number"
+					    android:text="1200398535929"/>
+				</RelativeLayout>
+				<RelativeLayout
+		           android:layout_width="fill_parent"
+		           android:layout_height="wrap_content"
+		           android:padding="10dp" >
+					<TextView
+					    android:id="@+id/tv_logistics_gps"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:textColor="#000000"
+					    android:text="物流跟踪："/>
+					<TextView
+					    android:id="@+id/tv_logisticsgps"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_toRightOf="@id/tv_logistics_gps"
+					    android:text="以下信息由物流公司提供，如有疑问请查询韵达快递官方网站"/>
+				</RelativeLayout>
+		                
+		   </LinearLayout>
+		   
+		   	<TextView
+		   	    android:layout_width="fill_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:textColor="#000000"
+		   	    android:text="物流详情"
+		   	    android:layout_marginTop="9dp"
+		   	    android:layout_marginLeft="10dp"  />
+		   	
+		   	<LinearLayout
+			   android:layout_width="fill_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10.0dip"
+			   android:layout_marginRight="10.0dip"
+			   android:layout_marginTop="3.0dip"
+			   android:background="@anim/shape_rounded_rectangle"
+			   android:orientation="vertical"  >
+		        
+				<TextView
+				    android:id="@+id/tv_info"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="物流即时信息  "
+				    android:padding="10dip"/>
+					
+		   </LinearLayout>
+	   </LinearLayout>
+	 </ScrollView>
+</RelativeLayout>

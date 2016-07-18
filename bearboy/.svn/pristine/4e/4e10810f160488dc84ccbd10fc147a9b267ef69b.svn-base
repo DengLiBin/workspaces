@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="dl_rl_home_title" type="id"/>
+    <item name="dl_rl_search_title" type="id"/>
+    <item name="ir_common_title" type="id"/>
+    <item name="tv_alert" type="id"/>
+    <item name="dl_et_search" type="id"/>
+    <item name="dl_rl_title" type="id"/>
+    <item name="dl_rl_bottom" type="id"/>
+    <item name="dl_ll_footer" type="id"/>
+    <item name="dl_rl_middle" type="id"/>
+    <item name="dl_iv_foot_home" type="id"/>
+    <item name="dl_iv_foot_search" type="id"/>
+    <item name="dl_iv_foot_brand" type="id"/>
+    <item name="dl_iv_foot_shopping" type="id"/>
+    <item name="dl_iv_foot_mycount" type="id"/>
+    <item name="ml_iv_search" type="id"/>
+    <item name="dl_iv_title_qrcode" type="id"/>
+    <item name="dl_iv_title_search_delete" type="id"/>
+    <item name="dl_iv_check" type="id"/>
+    <!-- splash -->
+    <item name="dl_rl_first_loading" type="id"/>
+    <item name="dl_iv_bearboy" type="id"/>
+    <item name="dl_iv_first_bear" type="id"/>
+    <item name="dl_iv_first_welcome" type="id"/>
+    <item name="dl_vp_splash" type="id"/>
+    <item name="dd_splash_enter_homePage" type="id"/>
+    <!-- 首页 -->
+    <item name="dl_lv_home_all" type="id"/>
+    <item name="dl_vp_home_ad" type="id"/>
+    <item name="dl_iv_home_sales" type="id"/>
+    <item name="dl_iv_home_new_staff" type="id"/>
+    <item name="dl_iv_home_recommand" type="id"/>
+    <item name="dl_iv_home_single" type="id"/>
+    <item name="dl_ll_home_panic_buying" type="id"/>
+    <item name="dl_ll_home_sales_promotion" type="id"/>
+    <item name="dl_iv_left" type="id"/>
+    <item name="dl_iv_rigth" type="id"/>
+    <item name="dl_ll_home_point" type="id"/>
+
+    <!-- 订单 -->
+    <item name="dl_tv_order_content_fir" type="id"/>
+    <item name="dl_tv_order_content_backmoney" type="id"/>
+    <item name="dl_lv_order_list" type="id"/>
+    <item name="dl_tv_order_content_status" type="id"/>
+    <item name="dl_tv_order_content_orderid" type="id"/>
+    <item name="dl_tv_order_content_totalmoney" type="id"/>
+    <item name="dl_tv_order_content_name" type="id"/>
+    <item name="dl_tv_order_content_productname" type="id"/>
+    <item name="dl_tv_content_address" type="id"/>
+    <item name="dl_tv_content_phone" type="id"/>
+    <item name="dl_iv_order_content_url" type="id"/>
+    <item name="dl_tv_order_content_productnumber" type="id"/>
+    <item name="dl_tv_order_content_sendtype" type="id"/>
+    <item name="dl_tv_order_content_money" type="id"/>
+    <item name="dl_tv_order_content_phone" type="id"/>
+    <item name="dl_tv_content_paytype" type="id"/>
+    <item name="dl_btn_delete_order" type="id"/>
+    <item name="dl_tv_order_content_pro_number" type="id"/>
+    <item name="dl_tv_order_content_pro_name" type="id"/>
+    <item name="dl_ll_order_content_product" type="id"/>
+    <item name="dl_tv_order_content_pro_uplimit" type="id"/>
+    <item name="dl_tv_order_content_pro_gift" type="id"/>
+    <item name="dl_tv_order_content_pro_attr" type="id"/>
+    <item name="dl_tv_order_content_pro_price" type="id"/>
+    <item name="dl_lv_pro_list" type="id"/>
+    <item name="dl_tv_content_invoice" type="id"/>
+    <item name="dl_btn_order_content_item" type="id"/>
+    <item name="dd_tv_invoice_title" type="id"/>
+    <item name="dd_tv_content_invoice" type="id"/>
+
+    <!-- 搜索 -->
+    <item name="dl_search_lv" type="id"/>
+    <item name="dl_item_search_ll" type="id"/>
+
+    <!-- 品牌 -->
+    <!-- 商品列表、详情 -->
+    <item name="gv_brand_list" type="id"/>
+    <item name="iv_brand_item" type="id"/>
+    <item name="dl_gv_level1_classify" type="id"/>
+    <item name="dl_gv_level2_classify" type="id"/>
+    <item name="dl_gv_level1_classify_iv_mericon" type="id"/>
+    <item name="dl_gv_level2_classify_iv_mericon" type="id"/>
+    <item name="dl_gv_level1_classify_tv_mername" type="id"/>
+    <item name="dl_gv_level2_classify_tv_mername" type="id"/>
+    <item name="dl_goods_entry_title_ll" type="id"/>
+    <item name="dl_goods_entry_goback" type="id"/>
+    <item name="dl_goods_entry_change_adapter" type="id"/>
+    <item name="dl_goods_entry_choose" type="id"/>
+    <item name="dl_goods_entry_sort1" type="id"/>
+    <item name="dl_goods_entry_sort2" type="id"/>
+    <item name="dl_goods_entry_sort2_img" type="id"/>
+    <item name="dl_goods_entry_sort3" type="id"/>
+    <item name="dl_goods_entry_listview" type="id"/>
+    <item name="dl_goods_entry_gridview" type="id"/>
+    <!-- 购物车  开始 -->
+    <item name="dl_shopping_cart_no_data" type="id"/>
+    <item name="dl_shopping_cart_list" type="id"/>
+    <item name="dl_shopping_cart_shadow" type="id"/>
+    <item name="dl_cart_no_data_state_tv" type="id"/>
+    <item name="dl_cart_no_data_forward_cuxiao" type="id"/>
+    <item name="dl_shoping_cart_user_no_login_tips" type="id"/>
+    <item name="dl_cart_select_all_layout" type="id"/>
+    <item name="dl_cart_select_all_button" type="id"/>
+    <item name="dl_cart_count_price_tv" type="id"/>
+    <item name="dl_cart_original_return_price_tv" type="id"/>
+    <item name="dl_spacing_view" type="id"/>
+    <item name="dl_cart_settle_accounts_but" type="id"/>
+    <item name="dl_cart_select_item_button" type="id"/>
+
+    <!-- 购物车条目 开始 -->
+    <item name="dl_shopping_cart_item_icon_iv" type="id"/>
+    <item name="dl_shopping_cart_item_title_tv" type="id"/>
+    <item name="dl_shopping_cart_item_number_tv" type="id"/>
+    <item name="dl_shopping_cart_item_size_tv" type="id"/>
+    <item name="dl_shopping_cart_item_color_tv" type="id"/>
+    <item name="dl_shopping_cart_item_price_tv" type="id"/>
+    <item name="dl_shopping_cart_item_itemprice_tv" type="id"/>
+    <!-- 购物车条目 结束 -->
+    <!-- 购物车 结束 -->
+
+
+    <!-- 订单 -->
+    <item name="dl_tv_order_id" type="id"/>
+    <item name="dl_tv_order_id_entry" type="id"/>
+    <item name="dl_tv_order_status" type="id"/>
+    <item name="dl_tv_order_status_entry" type="id"/>
+    <item name="dl_tv_order_time" type="id"/>
+    <item name="dl_tv_order_time_entry" type="id"/>
+    <item name="dl_tv_order_price" type="id"/>
+    <item name="dl_tv_order_price_entry" type="id"/>
+    <item name="dl_tv_order_flag" type="id"/>
+    <item name="dl_tv_order_flag_entry" type="id"/>
+
+    <!-- 地址 -->
+ 	<item name="dl_listview_my_address_list" type="id"/>
+ 	
+ 	<item name="dl_layout_my_address_info" type="id"/>
+ 	<item name="dl_edittext_my_address_name" type="id"/>
+ 	<item name="dl_edittext_my_address_mobile" type="id"/>
+ 	<item name="edittext_my_address_phone" type="id"/>
+ 	<item name="layout_my_address_areas" type="id"/>
+ 	<item name="textview_my_address_areas_content" type="id"/>
+ 	<item name="edittext_my_address_detail" type="id"/>
+ 	<item name="edittext_my_address_zip_code" type="id"/>
+
+
+    <item name="dl_lv_my_address_list" type="id"/>
+    <!-- 更多 -->
+    <!-- 搜索 -->
+    <item name="dl_search_title_ed" type="id"/>
+
+</resources>

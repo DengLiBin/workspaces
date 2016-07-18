@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout style="@style/main_title_background_style" >
+
+        <LinearLayout
+            style="@style/ll_horizontal_mw_style"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/title_3_tv"
+                style="@style/title_style"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/small_dp" />
+
+            <RelativeLayout style="@style/wm_parent_hw_content" >
+
+                <Button
+                    android:id="@+id/title_3_bt"
+                    style="@style/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="5dp"
+                    android:text="@string/setting" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/shade_line" />
+
+</merge>

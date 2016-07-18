@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       style="@style/lv_item_style"
+    >
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lv_tv_1"
+        style="@style/text_white_style"
+        android:text="@string/add" 
+        />
+
+    <TextView
+          android:id="@+id/lv_tv_2"
+        android:layout_marginTop="3dp"
+        style="@style/text_gray_style"
+        android:text="@string/add" 
+        android:textSize="15sp"
+        />
+    
+         <View style="@style/black_line" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+
+**** Build of configuration Default for project µ÷ÓÃc´úÂë2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****

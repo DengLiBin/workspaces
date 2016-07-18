@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="280dp"
+    android:gravity="center"
+    android:background="@drawable/main_bg3"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/wrap_content"
+        android:text="@string/pwd_set"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="300dip"
+        android:layout_height="240dip"
+        android:background="@color/dialog"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/pwd_password"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/dialog_set_pwd_et_pwd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            style="@style/wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/pwd_repassword"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/dialog_set_pwd_et_repwd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/bt_group"/>
+
+</LinearLayout>

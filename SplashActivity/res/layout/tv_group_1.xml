@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+       <LinearLayout
+            style="@style/ll_horizontal_mw_style"
+            >
+
+            <RelativeLayout style="@style/wm_parent_hw_content" >
+
+                <TextView
+                  android:id="@+id/tv_group_1_tv_1"
+                    style="@style/text_white_style"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="ssss"
+                    android:textSize="13sp" />
+
+                <TextView
+                  android:id="@+id/tv_group_1_tv_2"
+                    style="@style/text_white_style"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="ssss"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    
+    
+    
+    
+</merge>

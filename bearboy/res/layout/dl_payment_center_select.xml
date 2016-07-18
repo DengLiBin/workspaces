@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_backgroud"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/pay_money_method"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10.0dip"
+            android:layout_marginBottom="50.0dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/style_18_BEBEBE_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5.0dip"
+                android:paddingTop="5.0dip"
+                android:text="支付方式"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/payment_shape_rounded_rectangle"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/pay_money_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/pay_money_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="货到付款-现金支付" />
+
+                    <ImageView
+                        android:id="@+id/pay_money_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dd_payment_center_layout_line" />
+
+                <RelativeLayout
+                    android:id="@+id/pay_pos_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/pay_pos_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="货到付款-pos机支付" />
+
+                    <ImageView
+                        android:id="@+id/pay_pos_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dd_payment_center_layout_line" />
+
+                <RelativeLayout
+                    android:id="@+id/pay_alipay_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/pay_alipay_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="支付宝-待定" />
+
+                    <ImageView
+                        android:id="@+id/pay_alipay_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/invoce_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:layout_marginBottom="50.0dip"
+            android:background="@drawable/dd_cart_shopping_prom"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="10.0dip" >
+
+                <TextView
+                    style="@style/style_16_4B4B4B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发票类型：" />
+
+                <ToggleButton
+                    android:id="@+id/invoice_type_tb"
+                    android:layout_width="120.0dip"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/dd_payment_invoice_type_tb"
+                    android:paddingTop="2.0dip"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="10.0dip" >
+
+                <TextView
+                    style="@style/style_16_4B4B4B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发票抬头：" />
+
+                <EditText
+                    android:id="@+id/invoice_title_edit"
+                    style="@style/style_14_000000"
+                    android:layout_width="200.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:hint="请输入发票抬头..."
+                    android:paddingTop="2.0dip"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="10.0dip" >
+
+                <TextView
+                    style="@style/style_16_4B4B4B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="发票内容：" />
+
+                <Spinner
+                    android:id="@+id/invoice_content_spin"
+                    android:layout_width="fill_parent"
+                    style="@style/paymen_center_invoice_spinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/send_time"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10.0dip"
+            android:layout_marginBottom="50.0dip"
+            android:orientation="vertical"
+ >
+
+            <TextView
+                style="@style/style_18_BEBEBE_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5.0dip"
+                android:paddingTop="5.0dip"
+                android:text="送货时间"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/payment_shape_rounded_rectangle"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/send_workday_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/send_workday_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="只工作日送货" />
+
+                    <ImageView
+                        android:id="@+id/send_workday_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dd_payment_center_layout_line" />
+
+                <RelativeLayout
+                    android:id="@+id/send_holiday_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/send_holiday_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="双休日、假日送货" />
+
+                    <ImageView
+                        android:id="@+id/send_holiday_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dd_payment_center_layout_line" />
+
+                <RelativeLayout
+                    android:id="@+id/send_allday_rel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/send_allday_text"
+                        style="@style/style_16_4B4B4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="工作日、双休日及假日均可送货" />
+
+                    <ImageView
+                        android:id="@+id/send_allday_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dd_payment_center_layout_ok" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cart_settle_accounts_but_bg"
+        android:text="保存" />
+
+</LinearLayout>

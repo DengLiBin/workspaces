@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/cart_no_data_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/dd_cart_no_data_icon" />
+
+        <TextView
+            android:id="@id/dl_cart_no_data_state_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="亲购物车是空的哦..."
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/dl_cart_no_data_forward_cuxiao"
+        style="@style/cart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.0dip"
+        android:padding="15dp"
+        android:text="去逛逛"
+        android:textSize="18.0sp" />
+
+</LinearLayout>

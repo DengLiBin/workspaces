@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    style="@style/ll_vertical_mm_style"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tab_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pd_1_tv"
+            style="@style/text_white_style"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="ssss" />
+
+        <ProgressBar
+            android:id="@+id/pd_1_pb"
+            style="@style/progressBar_Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

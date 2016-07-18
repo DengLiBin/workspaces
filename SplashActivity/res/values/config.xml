@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="instruction_open_program">#3838438</string>
+    <string name="instruction_location">dingwei</string>
+    <string name="instruction_at_once_location">lijidingwei</string>
+    <string name="instruction_lockscreen">suoping</string>
+    <string name="instruction_alram">baojing</string>
+    <string name="instruction_reboot">chongqi</string>
+    <string name="instruction_wipeData">qingkong</string>
+    <string name="instruction_lock_screen_pwd">123456</string>
+    <string name="instruction_google_gps_http">http://ditu.google/?q=</string>
+    
+
+</resources>

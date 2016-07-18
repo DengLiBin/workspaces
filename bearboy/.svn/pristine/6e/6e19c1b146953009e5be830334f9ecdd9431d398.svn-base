@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_backgroud" >
+
+
+    <RelativeLayout
+        android:id="@+id/dl_my_account_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip" >
+
+        <TextView
+            style="@style/style_18_000000_BOLD"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="用户信息"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dl_my_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dl_my_account_title"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@anim/shape_rounded_rectangle"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dl_my_name_lin"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/style_17_808183_BOLD"
+                android:layout_width="80.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="left|center"
+                android:text="用户名:" />
+
+            <TextView
+                android:id="@+id/dl_my_name_text"
+                style="@style/style_14_C21513_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10.0dip"
+                android:gravity="right|center" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:id="@+id/dl_my_bonus_lin"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/style_17_808183_BOLD"
+                android:layout_width="80.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="left|center"
+                android:text="积分:" />
+
+            <TextView
+                android:id="@+id/dl_my_bonus_text"
+                style="@style/style_14_C21513_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10.0dip"
+                android:gravity="right|center" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:id="@+id/dl_my_level_lin"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/style_17_808183_BOLD"
+                android:layout_width="80.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="left|center"
+                android:text="等级:" />
+
+            <TextView
+                android:id="@+id/dl_my_level_text"
+                style="@style/style_14_C21513_BOLD"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10.0dip"
+                android:gravity="right|center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dl_logout_text"
+        style="@style/style_17_FFFFFF_BOLD"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dl_rl_bottom"
+        android:layout_below="@id/dl_my_info"
+        android:layout_gravity="center"
+        android:background="@anim/button_long"
+        android:gravity="center"
+        android:text="退出登录" />
+    
+
+</RelativeLayout>

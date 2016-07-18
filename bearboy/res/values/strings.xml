@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">熊孩子</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">搜索</string>
+    <string name="delete">删除</string>
+    <string name="shoppingcart">购物车</string>
+    <string name="search_hint">搜索 ：  商品/店铺</string>
+    <string name="brand">品牌</string>
+    <string name="mycount">账户中心</string>
+    <string name="title_activity_splashctivity">Splashctivity</string>
+    <string name="title_activity_first">熊孩子</string>
+    <string name="dl_my_address_manage">地址管理</string>
+    <string name="ordermoney">订单金额：</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dd_fill_order_price_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/submit_order_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text="应付金额（不含运费）"
+            android:textColor="#ff000000"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:id="@+id/payment_product_new_total_price"
+            style="@style/style_18_A10D0B_BOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5.0dip"
+            android:text="￥270"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit_order"
+        android:layout_width="140.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/cart_settle_accounts_but_bg"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="提交订单"
+        android:textColor="#ffffffff"
+        android:textSize="20.0sp" />
+
+</LinearLayout>

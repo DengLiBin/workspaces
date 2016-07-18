@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;layout&apos;&#x0D;&#x0A;- Original project: &apos;读取联系人&apos;&#x0D;&#x0A;- Destination element: &apos;layout&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     activity_main.xml&#x0D;&#x0A;     contact_list_item.xml" description="Copy files" element1="res/layout/activity_main.xml" element2="res/layout/contact_list_item.xml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1453190608410" target="/mobilesafe/res/layout" units="0" version="1.0"/>
+</session>

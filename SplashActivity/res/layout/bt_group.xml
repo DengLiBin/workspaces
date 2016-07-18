@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ll_horizontal_mw_style"
+    android:gravity="center"
+    android:padding="5dp"
+     >
+
+    <Button
+        android:id="@+id/bt_group_bt_1"
+        style="@style/button"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/bt_group_bt_2"
+        style="@style/button"
+        android:layout_marginLeft="5dip"
+        android:text="@string/cancel" />
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- 首页的头部 -->
+
+    <LinearLayout
+        android:id="@id/dl_rl_home_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dd_title_bg"
+        android:orientation="horizontal" >
+
+        <!-- TODO imageView -->
+
+        <ImageView
+            android:layout_width="50dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:src="@drawable/dd_title_logo" />
+
+        <!-- imageView -->
+
+        <EditText
+            android:id="@+id/dl_home_search_title_ed"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/dd_search_textview_bg"
+            android:hint="@string/search_hint"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@id/dl_iv_title_qrcode"
+            style="@style/btn_qrcode"
+            android:layout_gravity="center"
+            android:layout_margin="10dip"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+
+    <!-- 搜索的头部 -->
+
+    <LinearLayout
+        android:id="@id/dl_rl_search_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dd_title_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@id/dl_search_title_ed"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/dd_search_textview_bg"
+            android:hint="@string/search_hint"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/dl_search_my_title_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/dd_search_normal" />
+
+        <ImageView
+            android:id="@id/dl_iv_title_search_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_gravity="center"
+            android:src="@drawable/dd_title_delete" />
+    </LinearLayout>
+    <!-- 购物车头部 -->
+
+    <LinearLayout
+        android:id="@id/ir_common_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dd_title_bg" >
+
+        <ImageView
+            android:id="@id/dl_iv_left"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/tv_alert"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/shoppingcart"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@id/dl_iv_rigth"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/dd_shopping_cart_delete_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!-- fun  购物车 -->
+
+    <LinearLayout
+        android:id="@+id/ir_shopping_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dd_title_bg" >
+
+        <LinearLayout
+            android:id="@+id/id_shopping_cart_goback"
+            android:layout_width="90.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="right|center"
+            android:background="@drawable/shopping_cart_delete_btn_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:src="@drawable/dd_cart_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2.0dip"
+                android:text="返回"
+                android:textColor="#ffffffff"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shopping_cart_title_tv"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/shoppingcart"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/shopping_cart_delete_layout"
+            android:layout_width="90.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="right|center"
+            android:background="@drawable/shopping_cart_delete_btn_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:src="@drawable/dd_shopping_cart_delete_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6.0dip"
+                android:text="删除"
+                android:textColor="#ffffffff"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

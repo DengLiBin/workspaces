@@ -1,0 +1,343 @@
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+jni/hello.c: In function 'Java_com_bin_c2_MainActivity_encodePass':
+jni/hello.c:3:1: error: parameter name omitted
+ JNIEXPORT jint JNICALL Java_com_bin_c2_MainActivity_encodePass(JNIEnv *, jobject obj, jint pass){
+ ^
+make.exe: *** [obj/local/armeabi/objs/hello/hello.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Rebuild of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Rebuild of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd clean 
+[armeabi] Clean          : hello [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi-v7a] Clean          : hello [armeabi-v7a]
+[armeabi-v7a] Clean          : stdc++ [armeabi-v7a]
+[x86] Clean          : hello [x86]
+[x86] Clean          : stdc++ [x86]
+
+**** Build Finished ****
+
+**** Rebuild of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Compile thumb  : hello <= hello.c
+[armeabi] SharedLibrary  : libhello.so
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Compile thumb  : hello <= hello.c
+[armeabi-v7a] SharedLibrary  : libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Compile        : hello <= hello.c
+[x86] SharedLibrary  : libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Debug" Configuration may not build  ****
+****  because it uses the "MinGW GCC"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Debug" Configuration may not build  ****
+****  because it uses the "MinGW GCC"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****
+
+**** Rebuild of configuration Debug for project helloc ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Debug" Configuration may not build  ****
+****  because it uses the "MinGW GCC"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for helloc
+
+**** Build of configuration Default for project 调用c代码2 ****
+
+E:\android-ndk-r10b\ndk-build.cmd all 
+[armeabi] Install        : libhello.so => libs/armeabi/libhello.so
+[armeabi-v7a] Install        : libhello.so => libs/armeabi-v7a/libhello.so
+[x86] Install        : libhello.so => libs/x86/libhello.so
+
+**** Build Finished ****

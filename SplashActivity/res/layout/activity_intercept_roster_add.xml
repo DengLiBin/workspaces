@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="@drawable/main_bg3"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_1"/>
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/text_gray_style"
+                android:text="@string/number" />
+
+            <EditText
+                android:id="@+id/et_number"
+                style="@style/wm_parent_hw_content"
+                android:layout_height="40dp"
+                android:background="@color/textcolor"
+                android:hint="@string/input"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/text_gray_style"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/wm_parent_hw_content"
+                android:layout_height="40dp"
+                android:background="@color/textcolor"
+                android:hint="@string/can_empty"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout style="@style/wrap_content" >
+
+            <Button
+                android:id="@+id/bt_save"
+                style="@style/button"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/bt_cancel"
+                style="@style/button"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

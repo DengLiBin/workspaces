@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="@drawable/call_locate_gray"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:id="@+id/toast_location_ll"
+    >
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/toast_location_lv"
+        style="@style/wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="北京移动"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

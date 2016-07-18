@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="small_dp">10dp</dimen>
+    <dimen name="medium_dp">20dp</dimen>
+    <dimen name="large_dp">30dp</dimen>
+
+</resources>

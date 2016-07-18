@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- layout  width height -->
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wm_parent_hw_content" parent="match_parent">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- LinerLayout style -->
+
+    <style name="ll_vertical_mm_style" parent="match_parent">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_vertical_mw_style" parent="wm_parent_hw_content">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_vertical_ww_style" parent="wrap_content">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_horizontal_mm_style" parent="match_parent">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ll_horizontal_mw_style" parent="wm_parent_hw_content">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ll_horizontal_ww_style" parent="wrap_content">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- line -->
+
+    <style name="devide_line">
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@drawable/devide_line</item>
+    </style>
+
+    <style name="white_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="black_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="black_shade_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black_shade</item>
+    </style>
+
+    <style name="black_shade_line_horizontal">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black_shade</item>
+    </style>
+
+    <style name="shade_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/main_title_divider_bg</item>
+    </style>
+
+    <!-- listView style -->
+    
+    
+    
+    
+    
+   <style name="lv_item_style" parent="ll_vertical_mm_style">
+       
+       <item name="android:height">60dp</item>
+       
+   </style>
+    
+    
+    
+    <style name="lv_style" parent="match_parent">
+        <item name="android:id">@+id/lv</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:listSelector">@drawable/item_background_selector</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="elv_style" parent="lv_style">
+        <item name="android:id">@+id/elv</item>
+    </style>
+
+    <style name="lv_text_style" parent="wm_parent_hw_content">
+        <item name="android:id">@+id/tv</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@drawable/white_green_color_selector</item>
+    </style>
+
+    <style name="lv_icon_style">
+        <item name="android:id">@+id/icon</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/title_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_input_text_style">
+        <item name="android:height">40dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/function_button_selector</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/function_button_selector</item>
+    </style>
+
+    <style name="main_title_background_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/main_title_bg</item>
+    </style>
+
+    <style name="main_title_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+    </style>
+
+    <!-- title style -->
+    <style name="title_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_gray_style" parent="title_style">
+        <item name="android:textColor">@color/textcolor</item>
+    </style>
+
+    <style name="text_black_style" parent="title_style">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_white_style" parent="title_style">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_green_style" parent="title_style">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <!-- image  status -->
+
+    <style name="icon_style" parent="wrap_content">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="image_star" parent="wrap_content">
+        <item name="android:src">@android:drawable/btn_star_big_on</item>
+    </style>
+
+    <style name="image_status_on" parent="wrap_content">
+        <item name="android:src">@android:drawable/presence_online</item>
+    </style>
+
+    <style name="image_status_off" parent="wrap_content">
+        <item name="android:src">@android:drawable/presence_invisible</item>
+    </style>
+
+    <!-- checkbox -->
+
+    <style name="checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:width">30dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!-- notification -->
+
+    <style name="notificationText" parent="android:TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="notificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+
+    <style name="main_bg3_style" parent="match_parent">
+        <item name="android:id">@+id/ll</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/settting_bg</item>
+    </style>
+
+    <!-- progress -->
+
+    <style name="pb" parent="wrap_content">
+        <item name="android:id">@+id/pb</item>
+    </style>
+
+    <style name="progressBar_Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:background">@drawable/progress_bg</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+    </style>
+    
+    <!-- viewpage -->
+    
+    
+    <style name="vp" parent="match_parent">
+        <item name="android:id">@+id/vp</item>
+    </style>
+
+</resources>

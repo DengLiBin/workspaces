@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/dl_shoping_cart_user_no_login_tips"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#44000000"
+    android:clickable="true" >
+
+    <RelativeLayout
+        android:id="@id/dl_cart_select_all_layout"
+        android:layout_width="44.0dip"
+        android:layout_height="40.0dip" >
+
+        <ToggleButton
+            android:id="@id/dl_cart_select_all_button"
+            android:layout_width="28dip"
+            android:layout_height="28dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/cart_item_taggle_bg"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/dl_cart_count_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3.0dip"
+        android:layout_toRightOf="@id/dl_cart_select_all_layout"
+        android:text="这是神马"
+        android:textColor="#FFFFFF"
+        android:textSize="15.799988sp" />
+
+    <TextView
+        android:id="@+id/dl_cart_total_point_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dl_cart_count_price_tv"
+        android:layout_below="@id/dl_cart_count_price_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="104.0dip"
+        android:layout_marginTop="1.0dip"
+        android:ellipsize="none"
+        android:lineSpacingMultiplier="1.1"
+        android:singleLine="true"
+        android:text="尼玛"
+        android:textColor="#FFFFFF"
+        android:textSize="12.0sp" />
+
+    <View
+        android:id="@id/dl_spacing_view"
+        android:layout_width="fill_parent"
+        android:layout_height="6.0dip"
+        android:layout_below="@+id/dl_cart_total_point_tv" />
+
+    <Button
+        android:id="@id/dl_cart_settle_accounts_but"
+        android:layout_width="92.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dl_cart_total_point_tv"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="10.5dip"
+        android:background="@drawable/cart_settle_accounts_but_bg"
+        android:shadowColor="#ff851111"
+        android:shadowDx="1.0"
+        android:singleLine="true"
+        android:text="结算"
+        android:textColor="#FFFFFF"
+        android:textSize="18.0sp" />
+
+</RelativeLayout>

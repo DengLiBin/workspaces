@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cart_shoppong_no_good"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/dd_cart_shopping_nogoods"
+        android:padding="8dp"
+        android:text="木有看错！！！下面的没货了，不是俺不想卖给你·····"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

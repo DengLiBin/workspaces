@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       style="@style/lv_item_style"
+    >
+
+    <LinearLayout
+        android:id="@+id/tv_telephone_manager"
+        style="@style/wm_parent_hw_content"
+         >
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/lv_iv"
+            style="@style/lv_icon_style" />
+
+        <LinearLayout
+            style="@style/ll_vertical_mw_style"
+            android:gravity="center"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/lv_tv_1"
+                style="@style/text_white_style" />
+
+            <TextView
+                android:id="@+id/lv_tv_2"
+                style="@style/text_gray_style"
+                android:text="@string/all_rights_reserved"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/black_line" />
+
+</LinearLayout>

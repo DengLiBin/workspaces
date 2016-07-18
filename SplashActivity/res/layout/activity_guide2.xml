@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/lost_guide2_ll"
+    style="@style/match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/main_title_style"
+        android:text="@string/lost_lable_guide2_bind" />
+
+    <ImageView style="@style/devide_line" />
+
+    <TextView
+        style="@style/text_gray_style"
+        android:layout_marginTop="30dip"
+        android:text="@string/lost_lable_guide2_unbind" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        style="@style/wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            
+            android:id="@+id/lost_guide2_bt_bind"
+            android:layout_width="240dip"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/button_selector"
+            android:text="@string/lost_lable_guide2_on_bind" />
+
+        <CheckBox
+            android:clickable="false"
+            android:id="@+id/lost_guide2_cb_bind"
+            style="@style/wrap_content"
+            android:text="@string/lost_lable_guide2_unbind" />
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/wrap_content"
+        android:layout_marginTop="40dp" >
+
+        <LinearLayout
+            style="@style/wm_parent_hw_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <ImageView
+                style="@style/wrap_content"
+                android:src="@drawable/bind" />
+
+            <LinearLayout
+                style="@style/wm_parent_hw_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dip"
+                android:gravity="center" >
+
+                <ImageView style="@style/image_status_on" />
+
+                <ImageView style="@style/image_status_on" />
+
+                <ImageView style="@style/image_status_off" />
+
+                <ImageView style="@style/image_status_off" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

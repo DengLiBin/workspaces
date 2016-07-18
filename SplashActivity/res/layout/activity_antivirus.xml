@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style" >
+
+    <include layout="@layout/title_3" />
+
+    <LinearLayout style="@style/ll_vertical_mm_style" >
+
+        
+        <ImageView
+            android:id="@+id/iv"
+            style="@style/wm_parent_hw_content"
+            android:src="@anim/antivirus" />
+        
+        
+   
+
+        <ScrollView
+            android:layout_weight="1"
+            android:id="@+id/sv"
+            style="@style/match_parent" >
+
+            <LinearLayout
+                android:id="@+id/ll"
+                style="@style/ll_vertical_mm_style" >
+            </LinearLayout>
+        </ScrollView>
+        
+        
+        
+        <include layout="@layout/bt_group"/>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

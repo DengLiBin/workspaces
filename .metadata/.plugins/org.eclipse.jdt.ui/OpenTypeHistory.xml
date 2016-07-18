@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Fragment/E:\/androidsdk\/platforms\/android-23\/android.jar&lt;android.app(Fragment.class[Fragment" modifiers="33" timestamp="1451988598623"/>
+<typeInfo handle="=mobilesafe/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.widget(TextView.class[TextView" modifiers="33" timestamp="1442850402021"/>
+<typeInfo handle="=mobilesafe/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.widget(RelativeLayout.class[RelativeLayout" modifiers="33" timestamp="1442850402021"/>
+<typeInfo handle="=mobilesafe/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.content(BroadcastReceiver.class[BroadcastReceiver" modifiers="1057" timestamp="1442850402021"/>
+<typeInfo handle="=mobilesafe/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.app(Service.class[Service" modifiers="1057" timestamp="1442850402021"/>
+<typeInfo handle="=双击事件/E:\/androidsdk\/platforms\/android-23\/android.jar&lt;android.app(Service.class[Service" modifiers="1057" timestamp="1451988598623"/>
+<typeInfo handle="=mobilesafe/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.app(Activity.class[Activity" modifiers="33" timestamp="1442850402021"/>
+<typeInfo handle="=智慧北京/src&lt;com.bin.zhbj.fragment{BaseFragment.java[BaseFragment" modifiers="1025" timestamp="1454392707142"/>
+<typeInfo handle="=智慧北京/src&lt;com.bin.zhbj.base{BasePager.java[BasePager" modifiers="1" timestamp="1456288298575"/>
+<typeInfo handle="=智慧北京/src&lt;com.bin.zhbj.base{BaseMenuDetailPager.java[BaseMenuDetailPager" modifiers="1025" timestamp="1454486094978"/>
+<typeInfo handle="=智慧北京/E:\/androidsdk\/platforms\/android-15\/android.jar&lt;android.widget(ListView.class[ListView" modifiers="33" timestamp="1442850402021"/>
+<typeInfo handle="=谷歌电子市场/src&lt;com.libin.googleplay{BaseActivity.java[BaseActivity" modifiers="1" timestamp="1456730892791"/>
+<typeInfo handle="=谷歌电子市场/E:\/workspaces\/谷歌电子市场\/libs\/android-support-v4.jar&lt;android.support.v4.app(Fragment.class[Fragment" modifiers="33" timestamp="1456723888440"/>
+<typeInfo handle="=HM52baidumap/src&lt;com.bin.baidumap{HelloWord.java[HelloWord" modifiers="1" timestamp="1456981089783"/>
+<typeInfo handle="=HM52baidumap/E:\/androidsdk\/platforms\/android-23\/android.jar&lt;android.app(Activity.class[Activity" modifiers="33" timestamp="1451988598623"/>
+</typeInfoHistroy>

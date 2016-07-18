@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager" forced_jdk="true">
+    <src_description expected_position="1">
+      <src_folder value="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK" expected_position="0" />
+      <src_folder value="com.android.ide.eclipse.adt.LIBRARIES" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/demo/src" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/demo/gen" expected_position="3" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/demo/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/demo/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/demo/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/demo/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/demo/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/demo/libs" />
+        <resOverlayFolders>
+          <path>/demo/res-overlay</path>
+        </resOverlayFolders>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/demo/bin/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/demo">
+      <sourceFolder url="file://$MODULE_DIR$/demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo/gen" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android 2.2 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/demo/libs/baidu-android-openapi-sdk.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

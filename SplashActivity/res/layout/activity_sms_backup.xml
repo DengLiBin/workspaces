@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style"
+   >
+
+    <include layout="@layout/title_1" />
+
+    <LinearLayout
+        style="@style/match_parent"
+        android:orientation="vertical"
+        android:padding="50dp" >
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/text_white_style"
+            android:gravity="center"
+            android:text="@string/sms_backup_describe_last_time" />
+
+        <include
+            android:id="@+id/bt_backup"
+            layout="@layout/bt_1" />
+
+        <include
+            android:id="@+id/bt_restore"
+            layout="@layout/bt_1" />
+
+        <TextView
+            style="@style/text_white_style"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/sms_backup_describe" />
+    </LinearLayout>
+
+</LinearLayout>

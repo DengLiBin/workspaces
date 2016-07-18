@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:background="@drawable/anim_bg"
+    android:orientation="vertical" >
+
+    <View style="@style/black_shade_line" />
+
+    <LinearLayout
+        android:padding="5dp"
+        style="@style/ll_vertical_mw_style"
+        android:background="@drawable/main_title_bg" >
+
+        <ImageView
+            style="@style/wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/mobliesafe" />
+    </LinearLayout>
+
+    <View
+        style="@style/wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/main_title_divider_bg" />
+
+    <RelativeLayout
+        style="@style/wm_parent_hw_content"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/uncle_foreven" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv"
+        style="@style/match_parent"
+        android:layout_marginTop="10dip"
+        android:listSelector="@drawable/main_background_selector"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

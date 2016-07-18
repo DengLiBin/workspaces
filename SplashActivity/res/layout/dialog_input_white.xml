@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="240dp"
+       android:background="@drawable/tab_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        style="@style/wm_parent_hw_content"
+        android:layout_height="40dp"
+        >
+
+        <ImageView 
+            android:layout_marginTop="5dp"
+            style="@style/wrap_content"
+            android:src="@drawable/dialog_logo"
+             />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            style="@style/main_title_style"
+            android:text="@string/input_method"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="220dip"
+        android:layout_height="180dip"
+        android:background="@color/dialog"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_input_white_contact"
+            style="@style/dialog_input_text_style"
+            android:text="@string/input_contact" />
+
+
+        <TextView
+             android:id="@+id/dialog_input_white_call"
+            style="@style/dialog_input_text_style"
+            android:text="@string/input_call_log" />
+
+
+        <TextView
+               android:id="@+id/dialog_input_white_sms"
+            style="@style/dialog_input_text_style"
+            android:text="@string/input_sms_log" />
+
+
+        <TextView
+               android:id="@+id/dialog_input_white_yourself"
+            style="@style/dialog_input_text_style"
+            android:text="@string/input_yourself" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+       
+        android:layout_width="220dp	"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+             android:background="@drawable/function_button_selector"
+            android:id="@+id/dialog_input_white_cancel"
+            style="@style/button"
+            android:layout_marginLeft="5dip"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

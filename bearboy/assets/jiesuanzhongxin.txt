@@ -1,0 +1,66 @@
+﻿{
+    "response": "checkout",
+    "address_info": {
+        "id": "1001",
+        "name": "肖文",
+        "addressArea": "北京市海淀区",
+        "addressDetail": "闵庄路3号"
+    },
+    "payment_info": {
+        "type": "1"
+    },
+    "delivery_info": {
+        "type": "1"
+    },
+    "productlist": [
+        {
+            "id": "1102539",
+            "name": "雅培金装",
+            "pic": "",
+            "price": "89",
+            "product_property": [
+                {
+                    "key": "颜色",
+                    "value": "红色"
+                },
+                {
+                    "key": "大小",
+                    "value": "M"
+                }
+            ],
+            "number": 0,
+            "uplimit": "10",
+            "isgift": "true"
+        },
+        {
+            "id": "1102539",
+            "name": "雅培金装",
+            "pic": "",
+            "price": "89",
+            "product_property": [
+                {
+                    "key": "颜色",
+                    "value": "红色"
+                },
+                {
+                    "key": "大小",
+                    "value": "M"
+                }
+            ],
+            "number": 0,
+            "uplimit": "10",
+            "isgift": "true"
+        }
+    ],
+    "checkout_prom": [
+        "促销信息一",
+        "促销信息二"
+    ],
+    "checkout _addup": {
+        "totalCount": "3",
+        "totalPrice": "230",
+        "totalPoint": "230",
+        "freight": "10",
+        "promCut": "20"
+    }
+}

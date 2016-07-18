@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout style="@style/main_title_background_style" >
+
+        <TextView
+            android:id="@+id/title_1_tv"
+            style="@style/title_style"
+            android:layout_marginLeft="@dimen/small_dp" />
+    </LinearLayout>
+    
+    
+
+    <View style="@style/shade_line" />
+
+</merge>

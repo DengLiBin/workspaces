@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ll_vertical_mm_style"
+    android:background="@drawable/main_bg3" >
+
+    <include layout="@layout/title_2" />
+
+    <TextView
+        android:id="@+id/tv_describe"
+        style="@style/text_white_style"
+        android:padding="10dp"
+        android:text="@string/software_uninstall_describe_my_software"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        style="@style/ll_horizontal_mw_style"
+        android:background="@color/black" >
+
+        <RelativeLayout
+            style="@style/wm_parent_hw_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/tv_count"
+                style="@style/text_white_style"
+                android:layout_width="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_handler"
+                style="@style/wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/handler" />
+
+            <View
+                style="@style/black_shade_line_horizontal"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_handler" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout style="@style/wrap_content" >
+
+        <ListView
+            style="@style/lv_style" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+    
+    
+    <include layout="@layout/title_1"/>
+
+    <CheckBox
+         android:layout_marginLeft="10dp"
+        android:id="@+id/lost_cb_open_protecting"
+        style="@style/lv_text_style"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:height="60dp"
+        android:text="@string/lost_lable_un_protected" />
+
+    <View style="@style/black_line" />
+    <View style="@style/black_shade_line" />
+
+    <ListView
+        style="@style/lv_style">
+    </ListView>
+
+</LinearLayout>

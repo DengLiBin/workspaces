@@ -1,0 +1,142 @@
+﻿{
+    "response": "cart",
+    "cart": {
+        "cartitem": [
+            {
+                "product": {
+                    "id": "1200001",
+                    "name": "我有货，就是不想卖给你····",
+                    "pic": "",
+                    "price": "89",
+                    "number": 0,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 3
+            },
+            {
+                "product": {
+                    "id": "1200001",
+                    "name": "三鹿服饰",
+                    "pic": "",
+                    "price": "19",
+                    "number": 10,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 4
+            },{
+                "product": {
+                    "id": "1200001",
+                    "name": "坑你羽绒服",
+                    "pic": "",
+                    "price": "29",
+                    "number": 1,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 2
+            },{
+                "product": {
+                    "id": "1200001",
+                    "name": "不要钱西服",
+                    "pic": "",
+                    "price": "9",
+                    "number": 1,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 8
+            },{
+                "product": {
+                    "id": "1200001",
+                    "name": "免费丝袜",
+                    "pic": "",
+                    "price": "0.5",
+                    "number": 10,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 9
+            },{
+                "product": {
+                    "id": "1200001",
+                    "name": "缺货服装，为缺货而生",
+                    "pic": "",
+                    "price": "0.00",
+                    "number": 0,
+                    "uplimit": "10",
+                    "product_property": [
+                        {
+                            "key": "颜色",
+                            "value": "红色"
+                        },
+                        {
+                            "key": "大小",
+                            "value": "M"
+                        }
+                    ],
+                    "isgift": "false"
+                },
+                "prodNum": 8
+            }
+        ],
+        "prom": [
+            "促销信息一",
+            "促销信息二"
+        ],
+        "totalCount": "3",
+        "totalPrice": "230",
+        "totalPoint": "230"
+    }
+}

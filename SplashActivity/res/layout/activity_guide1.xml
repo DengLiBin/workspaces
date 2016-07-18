@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lost_guide1_ll"
+    style="@style/wrap_content"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/main_title_style"
+        android:text="@string/lost_lable_guide1" />
+
+    <ImageView style="@style/devide_line" />
+
+    <TextView
+        style="@style/text_gray_style"
+        android:layout_marginTop="20dip"
+        android:text="@string/lost_lable_guide1_title" />
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="20dip" >
+
+        <ImageView style="@style/image_star" />
+
+        <TextView
+            style="@style/text_gray_style"
+            android:paddingTop="2dip"
+            android:text="@string/lost_lable_guide1_sim" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="5dip" >
+
+        <ImageView style="@style/image_star" />
+
+        <TextView
+            style="@style/text_gray_style"
+            android:paddingTop="2dip"
+            android:text="@string/lost_lable_guide1_gps" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="5dip" >
+
+        <ImageView style="@style/image_star" />
+
+        <TextView
+            style="@style/text_gray_style"
+            android:paddingTop="2dip"
+            android:text="@string/lost_lable_guide1_remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:layout_marginTop="5dip" >
+        <ImageView style="@style/image_star" />
+
+        <TextView
+            style="@style/text_gray_style"
+            android:paddingTop="2dip"
+            android:text="@string/lost_lable_guide1_lockscreen" />
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/match_parent"
+        android:layout_marginTop="20dip" >
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/wrap_content"
+                android:src="@drawable/setup1" />
+
+            <LinearLayout
+                style="@style/match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dip"
+                android:gravity="center_horizontal" >
+
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_off" />
+                <ImageView style="@style/image_status_off" />
+                <ImageView style="@style/image_status_off" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

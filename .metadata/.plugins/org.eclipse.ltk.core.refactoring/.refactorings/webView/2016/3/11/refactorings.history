@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.libin.view.MainActivity.initData().new WebChromeClient() {...}.onShowCustomView().video&apos; in &apos;com.libin.view.MainActivity.initData().new WebChromeClient() {...}.onShowCustomView()&apos; to field&#x0D;&#x0A;- Original project: &apos;webView&apos;&#x0D;&#x0A;- Original element: &apos;com.libin.view.MainActivity.initData().new WebChromeClient() {...}.onShowCustomView().video&apos;&#x0D;&#x0A;- Field name: &apos;video&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;video&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.libin.view{MainActivity.java" name="video" selection="6435 46" stamp="1457263577174" static="false" version="1.0" visibility="2"/>
+</session>

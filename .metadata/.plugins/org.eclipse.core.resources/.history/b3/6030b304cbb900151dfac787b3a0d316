@@ -1,0 +1,36 @@
+package com.bin.mobilesafe.activity;
+
+import com.bin.mobilesafe.R;
+import com.bin.mobilesafe.R.layout;
+
+import android.app.Activity;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class SplashActivity extends Activity {
+	private TextView tvVersion;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		tvVersion=(TextView) findViewById(R.id.tv_version);
+	}
+	private String getVersionName(){
+		PackageManager packageManager=getPackageManager();
+		try{
+			//获取包的信息
+			PackageInfo packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
+			
+			int versioncode=packageInfo.versionCode;
+			String versionName=packageInfo.versionName;
+		}catch(NameNotFoundException e){
+			//没有找到包名走此异常
+			e.printStackTrace();
+		}
+		return versionName;
+		
+	}
+}

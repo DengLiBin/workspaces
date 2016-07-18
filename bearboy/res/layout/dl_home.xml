@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- viewpager广告 -->
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dd_home_item_bg" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@id/dl_vp_home_ad"
+                android:layout_width="fill_parent"
+                android:layout_height="170dip" >
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:id="@id/dl_ll_home_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_margin="5dip"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 促销快报 -->
+
+            <ImageView
+                android:id="@id/dl_iv_home_sales"
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:layout_margin="1dip"
+                android:layout_weight="1"
+                android:background="@drawable/dd_home_item_bg"
+                android:src="@drawable/dd_icon_sad" />
+            <!-- 首发新品 -->
+
+            <ImageView
+                android:id="@id/dl_iv_home_new_staff"
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:layout_margin="1dip"
+                android:layout_weight="1"
+                android:background="@drawable/dd_home_item_bg"
+                android:src="@drawable/dd_icon_sad" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:layout_weight="1.5"
+                android:orientation="vertical" >
+
+                <!-- 推荐品牌 -->
+
+                <ImageView
+                    android:id="@id/dl_iv_home_recommand"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_margin="1dip"
+                    android:background="@drawable/dd_home_item_bg"
+                    android:src="@drawable/dd_icon_sad" />
+                <!-- 热门单品 -->
+
+                <ImageView
+                    android:id="@id/dl_iv_home_single"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_margin="1dip"
+                    android:background="@drawable/dd_home_item_bg"
+                    android:src="@drawable/dd_icon_sad" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 限时抢购内容 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/dd_home_item_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dip"
+                android:drawableLeft="@drawable/dd_textview_home_bg"
+                android:gravity="center_vertical"
+                android:text="限时抢购" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="5dip"
+                android:background="#ff0000" />
+
+            <LinearLayout
+                android:id="@id/dl_ll_home_panic_buying"
+                android:layout_width="fill_parent"
+                android:layout_height="80dip"
+                android:orientation="vertical" 
+                android:background="@drawable/shopping_spring">
+
+               <HorizontalScrollView 
+                   android:id="@+id/dl_hs_panic_buying_list"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   >
+               </HorizontalScrollView>
+                
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 促销活动详情 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/dd_home_item_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/dd_textview_home_bg"
+                android:gravity="center_vertical"
+                android:text="促销活动详情" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="5dip"
+                android:background="#ff0000" />
+
+            <LinearLayout
+                android:id="@id/dl_ll_home_sales_promotion"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+               <ImageView 
+                   android:layout_weight="1"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/dd_"
+                   />
+               <ImageView 
+                android:layout_weight="1"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/image3"
+                   />
+               <ImageView 
+                   android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                   android:layout_width="0dip"
+                   android:src="@drawable/image4"
+                   />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

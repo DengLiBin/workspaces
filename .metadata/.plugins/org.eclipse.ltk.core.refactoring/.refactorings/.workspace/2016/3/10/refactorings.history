@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename Java project &apos;黑马52百度地图&apos; to &apos;HM52baidumap&apos;&#x0D;&#x0A;- Original element: &apos;黑马52百度地图&apos;&#x0D;&#x0A;- Renamed element: &apos;黑马52百度地图&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;黑马52百度地图&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=黑马52百度地图" name="HM52baidumap" references="true" stamp="1456890815385" version="1.0"/>&#x0A;<refactoring comment="Delete resource &apos;进度条&apos;" deleteContents="true" description="Delete resource &apos;进度条&apos;" element1="/进度条" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1457075802531"/>
+</session>

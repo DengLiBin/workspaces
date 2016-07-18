@@ -1,0 +1,14 @@
+1456722844133	Delete element
+1456725685569	Rename resource 'main.xml'
+1456725812959	Rename resource 'activity_main.xml'
+1456725951769	Rename resource 'main_activity_actions.xml'
+1456726206541	Rename resource 'main_activity.xml'
+1456727064407	Rename package 'com.bin.googleplay'
+1456731123788	Copy file
+1456734021556	Delete element
+1456742173338	Convert local variable 'drawer' to field
+1456742185679	Convert local variable 'actionBar' to field
+1456742189620	Convert local variable 'tab1' to field
+1456742194226	Convert local variable 'tab2' to field
+1456742201734	Convert local variable 'tab3' to field
+1456743988599	Convert local variable 'drawerToggle' to field

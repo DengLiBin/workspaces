@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dip"
+    android:orientation="horizontal" 
+    
+    >
+
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="vertical"
+	    android1:layout_marginBottom="5dip"
+	    >
+	    <TextView
+	        android:id="@id/addressTV"
+	        style="@style/style_16_666666_BOLD"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="15.0dip"
+	        android:text="收货地址"/>
+	    
+	    <TextView
+	        android:id="@id/addressnameTV"
+	        style="@style/style_16_666666_BOLD"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="15.0dip"
+	        android:layout_toRightOf="@id/imgIcon" />
+	    
+	    <TextView
+	        android:id="@id/phoneTV"
+	        style="@style/style_16_666666_BOLD"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="15.0dip"
+	        android:layout_toRightOf="@id/imgIcon" />
+	    
+	    <TextView
+	        android:id="@id/address0TV"
+	        style="@style/style_16_666666_BOLD"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="15.0dip"
+	         />
+	    
+	    <TextView
+	        android:id="@id/addressdetilTV"
+	        style="@style/style_16_666666_BOLD"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="15.0dip"
+	         />
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="15.0dip"
+        android:src="@drawable/ok"
+       	android1:visibility="invisible"
+        />
+    
+ 
+</LinearLayout>

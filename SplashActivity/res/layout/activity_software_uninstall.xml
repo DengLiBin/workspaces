@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style"
+     >
+
+    <include layout="@layout/title_1" />
+
+    <LinearLayout
+        style="@style/ll_vertical_mm_style"
+        android:padding="10dp" >
+
+     <include
+         android:layout_marginBottom="5dp"
+          layout="@layout/tv_group_1"/>
+
+        <FrameLayout style="@style/match_parent" >
+            
+    
+                <LinearLayout
+                    android:id="@+id/pb"
+                    android:layout_gravity="center"
+                    style="@style/ll_vertical_mw_style"
+                    >
+
+                    <ProgressBar
+                        android:layout_gravity="center"
+                         style="@style/wrap_content" />
+                    
+                    <TextView 
+                        android:gravity="center"
+                        style="@style/text_white_style"
+                        android:text="@string/in_search"
+                        android:textSize="15sp"
+                        />
+                    
+                </LinearLayout>
+
+            <LinearLayout
+               android:id="@+id/ll_main"
+                style="@style/ll_vertical_mm_style" >
+                    
+                <include layout="@layout/line"/>
+
+                <ListView
+                    style="@style/lv_style"
+                   />
+
+                <View style="@style/black_shade_line" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

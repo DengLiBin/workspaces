@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style" >
+
+    <include layout="@layout/title_1" />
+
+    <com.jayqqaa12.mobilesafe.view.LockSwitchButton
+        android:id="@+id/sbt"
+        style="@style/wm_parent_hw_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        style="@style/text_white_style"
+        android:text="@string/space_lock_label_unlock" />
+
+    <include layout="@layout/line" />
+
+    <FrameLayout style="@style/match_parent" >
+
+        <include
+            android:id="@+id/pb"
+            layout="@layout/pb_1" />
+
+        <ListView
+            android:id="@+id/lv_unlock"
+            style="@style/lv_style"
+            android:visibility="invisible" />
+
+        <ListView
+            android:id="@+id/lv_lock"
+            style="@style/lv_style"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</LinearLayout>

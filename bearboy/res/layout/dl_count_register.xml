@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- <FrameLayout
+        android:id="@+id/dl_fraHead"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/head_bg" >
+
+        <TextView
+            android:id="@+id/dl_head_back_text"
+            style="@style/style_15_EBEBEB_BOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@anim/head_back"
+            android:gravity="center"
+            android:text="返 回" />
+
+        <TextView
+            style="@style/style_18_BEBEBE_BOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="注册中心" />
+    </FrameLayout> -->
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        >
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/view_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/id_login_bg_1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip" >
+
+                    <!-- 用户名 -->
+                    <TextView
+                        android:layout_width="65dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="right"
+                        android:text="用户名 "
+                        android:textColor="#212121" />
+
+                    <LinearLayout
+                        android:layout_width="180dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                         >
+
+                        <EditText
+                            android:id="@+id/dl_user_register_username"
+                            android:layout_width="180dip"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:singleLine="true"
+                             />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 密码 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="60dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="right"
+                        android:text="密码 "
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/dl_user_register_password"
+                        android:layout_width="180dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:background="@null"
+                        />
+                </LinearLayout>
+                
+                <!-- 确认密码 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="60dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="right"
+                        android:text="确认密码 "
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/dl_user_register_password2"
+                        android:layout_width="180dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:background="@null"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_horizontal" >
+					<!-- 自动登录 -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_horizontal" >
+					<!-- 注册 -->
+                    <Button
+                        android:id="@+id/dl_user_regist"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/id_login_registe" />
+                </LinearLayout>
+                <!-- 友好提示 -->
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center"
+                    android:text="忘记密码，请访问www.itheima28.com"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <!-- 客服电话 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/view_2"
+                android:background="@drawable/id_login_bg_1"
+                android:gravity="center_horizontal" >
+                
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dip"
+                    android:text="联系我们：010-88888888"
+				/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

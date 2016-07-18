@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;双击事件&apos;&#x0D;&#x0A;- Original project: &apos;双击事件&apos;&#x0D;&#x0A;- Original element: &apos;com.bin.doubleclick.RocketService.java&apos;" description="Delete element" element1="/src&lt;com.bin.doubleclick{RocketService.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1453792993185" subPackages="false" version="1.0"/>
+</session>

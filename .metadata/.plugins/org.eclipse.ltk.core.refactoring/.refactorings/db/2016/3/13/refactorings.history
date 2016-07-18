@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;聊天机器人/src/com.bin.chatrobot&apos;&#x0D;&#x0A;- Original project: &apos;db&apos;&#x0D;&#x0A;- Destination element: &apos;聊天机器人/src/com.bin.chatrobot&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     db/src/service&#x0D;&#x0A;     db/src/domain" description="Copy packages" destination="=聊天机器人/src&lt;com.bin.chatrobot" element1="/src&lt;service" element2="/src&lt;domain" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1458492499979" version="1.0"/>
+</session>

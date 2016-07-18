@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@anim/shape_rounded_rectangle"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- 发货方式 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="发货方式：" />
+
+            <TextView
+                android:id="@+id/tv_sendtype"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="快递" />
+        </LinearLayout>
+        <!-- 物流编号 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="物流编号：" />
+
+            <TextView
+                android:id="@+id/tv_l_id"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="LN1234567890" />
+        </LinearLayout>
+        <!-- 物流公司 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="物流公司：" />
+
+            <TextView
+                android:id="@+id/tv_l_company"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="韵达快递" />
+        </LinearLayout>
+        <!-- 运单号码 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="运单号码：" />
+
+            <TextView
+                android:id="@+id/tv_l_number"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="12345678909876" />
+        </LinearLayout>
+        <!-- 物流跟踪 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="物流跟踪：" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="以下数据由物流公司 ，如有疑问，请查找相关公司" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:text="订单详情" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@anim/shape_rounded_rectangle"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

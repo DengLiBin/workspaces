@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/style_14_4B4B4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:text="数量总计：" />
+
+        <TextView
+            android:id="@+id/payment_product_number"
+            style="@style/style_14_A10D0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5.0dip"
+            android:text="2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/style_14_4B4B4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:text="赠送积分总计：" />
+
+        <TextView
+            android:id="@+id/payment_product_point"
+            style="@style/style_14_A10D0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5.0dip"
+            android:text="500" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/style_14_4B4B4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:text="运费金额：" />
+
+        <TextView
+            android:id="@+id/payment_product_freight"
+            style="@style/style_14_A10D0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5.0dip"
+            android:text="￥270" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/style_14_4B4B4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:text="促销优惠金额：" />
+
+        <TextView
+            android:id="@+id/payment_product_promCut"
+            style="@style/style_18_A10D0B_BOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5.0dip"
+            android:text="-￥0" />
+    </RelativeLayout>
+
+</LinearLayout>

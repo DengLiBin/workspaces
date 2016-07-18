@@ -1,0 +1,207 @@
+package com.bin.mobilesafe.activity;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.bin.mobilesafe.R;
+import com.bin.mobilesafe.utils.StreamUtils;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class SplashActivity extends Activity {
+	protected static final int CODE_UPDATE_DIALOG = 0;
+	protected static final int CODE_URL_ERROR = 1;
+	protected static final int CODE_NET_ERROR = 2;
+	protected static final int CODE_JSON_ERROR = 3;
+	protected static final int CODE_ENTER_HOME = 4;// 进入主页面
+	private TextView tvVersion;
+	
+	//服务器返回信息
+	String mVersionName;//版本名
+	int mVersionCode;//版本号
+	String mDesc;//版本描述信息
+	String mDownloadUrl;//版本更新下载地址
+	private Handler mHandler=new Handler(){
+		public void handleMessage(android.os.Message msg){
+			switch(msg.what){
+			
+			case CODE_UPDATE_DIALOG:
+				showUpdateDialog();
+				break;
+			case CODE_URL_ERROR:
+				Toast.makeText(SplashActivity.this, "url错误", Toast.LENGTH_SHORT).show();
+				break;
+			case CODE_NET_ERROR:
+				Toast.makeText(SplashActivity.this, "网络错误", Toast.LENGTH_SHORT).show();
+				break;
+			case CODE_JSON_ERROR:
+				Toast.makeText(SplashActivity.this, "数据解析错误", Toast.LENGTH_SHORT).show();
+				break;
+			case CODE_ENTER_HOME:
+	
+				break;
+			}
+		}
+	};
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_splash);
+		tvVersion=(TextView) findViewById(R.id.tv_version);
+		tvVersion.setText("版本："+getVersionName());
+		checkVersion();
+	}
+	
+	/**获取本地版本名称
+	 * @return
+	 */
+	private String getVersionName(){
+		PackageManager packageManager=getPackageManager();
+		try{
+			//获取包的信息
+			PackageInfo packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
+			
+			//int versionCode=packageInfo.versionCode;
+			String versionName=packageInfo.versionName;
+			return versionName;
+		}catch(NameNotFoundException e){
+			//没有找到包名走此异常
+			e.printStackTrace();
+		}
+		return "";
+		
+	}
+	/**
+	 * 获取本地版本号
+	 * @return
+	 */
+	private int getVersionCode(){
+		PackageManager packageManager=getPackageManager();
+		try{
+			//获取包的信息
+			PackageInfo packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
+			
+			int versionCode=packageInfo.versionCode;
+			
+			return versionCode;
+		}catch(NameNotFoundException e){
+			//没有找到包名走此异常
+			e.printStackTrace();
+		}
+		return -1;
+	}
+	/**
+	 * 检测服务器版本信息
+	 */
+	private void checkVersion(){
+		new Thread(new subThread()).start();
+		
+	}
+	/**
+	 * 升级对话框
+	 */
+	protected void showUpdateDialog(){
+		AlertDialog.Builder builder=new AlertDialog.Builder(this); 
+		builder.setTitle("发现新版本："+mVersionName);
+		builder.setMessage(mDesc);
+		builder.setPositiveButton("立即更新", new OnClickListener(){
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+			System.out.println("立即更新");
+			}
+		});
+		builder.setNegativeButton("以后再说", new OnClickListener(){
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				enterHome();
+			}
+			
+		});
+		builder.show();
+	}
+	//定义一个子线程
+	class subThread implements Runnable{
+
+		@Override
+		public void run() {
+			Message msg = Message.obtain();
+			HttpURLConnection conn = null;
+			try{
+				URL url=new URL("http://10.0.2.2:8080/update.json");
+				conn=(HttpURLConnection) url.openConnection();
+				conn.setRequestMethod("GET");//设置请求方式
+				conn.setConnectTimeout(5000);//设置连接超时
+				conn.setReadTimeout(5000);//设置响应超时，连接上了，但服务器不响应
+				conn.connect();
+				int responseCode = conn.getResponseCode();//获取响应吗
+				System.out.println("响应码："+responseCode);
+				if(responseCode==200){
+					InputStream inputStream = conn.getInputStream();
+					String result=StreamUtils.readFromStream(inputStream);
+					
+					System.out.println("访问结果："+result);
+					//解析json
+					JSONObject jo=new JSONObject(result);
+					mVersionName=jo.getString("versionName");
+					mVersionCode=jo.getInt("versionCode");
+					mDesc = jo.getString("description");
+					mDownloadUrl=jo.getString("downloadUrl");
+					//System.out.println(mDesc);
+					if(mVersionCode>getVersionCode()){//判断是否有跟新
+						//服务器VersionCode大于本地的VersionCode，说明有跟新
+						System.out.println("有更新");
+						msg.what=CODE_UPDATE_DIALOG;
+					}
+				}
+				
+				
+			}catch(MalformedURLException e){
+				//url错误
+				msg.what = CODE_URL_ERROR;
+				System.out.println("url错误");
+				e.printStackTrace();
+			}catch(IOException e){
+				//网络错误
+				msg.what=CODE_NET_ERROR;
+				System.out.println("网络错误");
+				e.printStackTrace();
+			}catch(JSONException e){
+				//json解析失败
+				msg.what = CODE_JSON_ERROR;
+				System.out.println("json解析失败");
+				e.printStackTrace();
+			}finally{
+				mHandler.sendMessage(msg);
+				if(conn!=null){
+					conn.disconnect();//关闭网络连接
+				}
+			}
+		}
+		
+	}
+	private void enterHome(){
+		Intent intent=new Intent(this,HomeActivity.class);
+		startActivity(intent);
+		finish();
+	}
+}

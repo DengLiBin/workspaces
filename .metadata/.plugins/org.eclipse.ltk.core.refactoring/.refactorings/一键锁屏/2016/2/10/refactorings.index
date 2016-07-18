@@ -1,0 +1,5 @@
+1456750806023	Convert local variable 'btnLock' to field
+1456750808434	Convert local variable 'btnUnstall' to field
+1456751343685	Convert local variable 'btnActive' to field
+1456752201054	Convert local variable 'pm' to field
+1456752804152	Convert local variable 'wakeLock' to field

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/lost_guide4_ll"
+    style="@style/match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/main_title_style"
+        android:text="@string/lost_lable_guide4_finish" />
+    <ImageView style="@style/devide_line" />
+
+    <LinearLayout
+        style="@style/wrap_content"
+        android:layout_marginTop="40dip"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/text_gray_style"
+            android:text="@string/lost_lable_guide4_at_once" />
+        <CheckBox
+            android:id="@+id/lost_guide4_cb_open_protecting"
+            style="@style/wm_parent_hw_content"
+            android:text="@string/lost_lable_guide4_open" />
+    </LinearLayout>
+
+    <RelativeLayout style="@style/match_parent" >
+
+        <LinearLayout
+            style="@style/wm_parent_hw_content"
+            android:layout_marginTop="40dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView
+                style="@style/wm_parent_hw_content"
+                android:src="@drawable/luyang" />
+            <LinearLayout
+                style="@style/wm_parent_hw_content"
+                android:layout_marginTop="40dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_on" />
+                <ImageView style="@style/image_status_on" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

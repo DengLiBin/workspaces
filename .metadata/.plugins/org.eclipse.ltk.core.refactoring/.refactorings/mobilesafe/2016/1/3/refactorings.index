@@ -1,0 +1,35 @@
+1452668445743	Move compilation unit
+1452668887140	Rename type 'MainActivity'
+1452669524030	Delete element
+1452674975169	Move compilation unit
+1452680382182	Rename resource 'activity_main.xml'
+1452680420932	Copy file
+1452687403950	Delete element
+1452753312677	Delete element
+1452755397042	Delete element
+1452760647513	Copy file
+1452763442985	Copy file
+1452764985466	Convert local variable 'sivUpadate' to field
+1452766010346	Convert local variable 'mPref' to field
+1452769153485	Convert local variable 'mPref' to field
+1452834691683	Convert local variable 'rlRoot' to field
+1452837038997	Convert local variable 'dialog' to field
+1452837340809	Convert local variable 'etPassWord' to field
+1452837348725	Convert local variable 'etPasssWordConfirm' to field
+1452838235304	Convert local variable 'mPref' to field
+1452839165216	Copy file
+1452839517525	Convert local variable 'etPassWord2' to field
+1452839991935	Convert local variable 'savePassword' to field
+1452846593872	Copy file
+1452846969203	Rename resource 'activity_LostFind.xml'
+1452847511491	Convert local variable 'mPref' to field
+1452847896513	Copy file
+1452852842278	Copy compilation unit
+1452852864976	Copy file
+1452855461981	Copy file
+1452855692144	Copy compilation unit
+1452856085205	Copy file
+1452856681087	Copy file
+1452857076401	Copy compilation unit
+1452857483460	Convert local variable 'mPref' to field
+1452926788922	Copy file

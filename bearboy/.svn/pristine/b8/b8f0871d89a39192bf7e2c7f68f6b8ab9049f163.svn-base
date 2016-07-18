@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dd_payment_center_backgroud" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/payment_submit_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/home_backgroud"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="您的订单已提交，我们会尽快安排发货！"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="290.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/payment_shape_rounded_rectangle"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1.0dip" >
+
+                    <TextView
+                        android:id="@+id/orderid_text"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dip"
+                        android:text="订单号：" />
+
+                    <TextView
+                        android:id="@+id/orderid_value_tv"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/orderid_text"
+                        android:padding="5.0dip" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="1.0dip" >
+
+                    <TextView
+                        android:id="@+id/paymoney_text"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dip"
+                        android:text="应付金额：" />
+
+                    <TextView
+                        android:id="@+id/paymoney_value_tv"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/paymoney_text"
+                        android:padding="5.0dip" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="1.0dip" >
+
+                    <TextView
+                        android:id="@+id/paytype_text"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dip"
+                        android:text="支付方式：" />
+
+                    <TextView
+                        android:id="@+id/paytype_value_tv"
+                        style="@style/style_15_666666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/paytype_text"
+                        android:padding="5.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/continue_shoping"
+                    style="@style/style_15_EBEBEB_BOLD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/payment_submit_ok_button_long"
+                    android:gravity="center"
+                    android:text="继续购物" />
+
+                <TextView
+                    android:id="@+id/to_order_detail"
+                    style="@style/style_15_EBEBEB_BOLD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/payment_submit_ok_button_long"
+                    android:gravity="center"
+                    android:text="查看订单" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/payment_shape_rounded_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textOrderTip"
+                    style="@style/style_15_666666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5.0dip"
+                    android:text="如有疑问，您可以拨打客服电话：" />
+
+                <TextView
+                    android:id="@id/textOrderTip"
+                    style="@style/style_15_666666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5.0dip"
+                    android:text="400 616 0066" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:scrollbars="none"
+                android:id="@+id/payment_product_list"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/payment_shape_rounded_rectangle"
+                android:cacheColorHint="#00000000"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/payment_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            layout="@layout/dl_payment_submit_botom" />
+    </FrameLayout>
+
+</LinearLayout>

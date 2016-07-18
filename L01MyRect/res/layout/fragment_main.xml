@@ -1,0 +1,17 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:jkxy="http://schemas.android.com/apk/res/com.jikexueyuan.myrect" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.myrect.MainActivity$PlaceholderFragment" >
+
+    <com.jikexueyuan.myrect.MyRect
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        jkxy:rect_color="#ff00ff00"
+        />
+
+
+</LinearLayout>

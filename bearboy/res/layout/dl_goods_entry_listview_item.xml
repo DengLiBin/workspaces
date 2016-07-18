@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp" >
+
+    <ImageView
+        android:id="@+id/dl_goods_listview_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/dl_goods_listview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/dl_goods_listview_img"
+        android:text="这是一些数据数据介绍"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dl_goods_listview_buynum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/dl_goods_listview_img"
+        android:text="已有100人购买"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#55000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/dl_goods_listview_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dl_goods_listview_buynum"
+        android:layout_centerVertical="true"
+        android:text="#1.00"
+        android:textColor="#FF0000"
+        android:textSize="22sp"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_title_bg"
+     >
+
+    <TextView
+        style="@style/main_title_style"
+        android:textColor="@color/textcolor"
+        android:text="@string/pwd_input"
+        android:textSize="30sp" />
+
+    <LinearLayout
+          android:padding="10dp"
+        android:layout_width="300dip"
+        android:layout_height="140dip"
+        android:background="@color/dialog"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/dialog_pwd_et_pwd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp" />
+        
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            style="@style/wm_parent_hw_content"
+            android:textSize="20sp"
+            android:text="@string/pwd_forget"
+            android:textColor="@color/green"
+            />
+        
+    </LinearLayout>
+
+
+    <include layout="@layout/bt_group"/>
+
+</LinearLayout>

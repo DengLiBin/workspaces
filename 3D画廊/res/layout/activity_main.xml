@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.bin.ThreeD.MainActivity" >
+
+    <com.bin.ThreeD.view.CustomGallery
+        android:id="@+id/galley"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        
+    </com.bin.ThreeD.view.CustomGallery>
+
+</RelativeLayout>

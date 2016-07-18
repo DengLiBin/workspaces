@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/style_bt_1"
+    style="@style/wm_parent_hw_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/function_button_selector"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/bt_1_iv"
+        style="@style/wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        style="@style/wm_parent_hw_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bt_1_tv_1"
+            style="@style/text_black_style"
+            />
+
+        <TextView
+            android:id="@+id/bt_1_tv_2"
+            style="@style/text_gray_style"
+            android:textSize="15sp" />
+    </LinearLayout>
+    
+
+</LinearLayout>

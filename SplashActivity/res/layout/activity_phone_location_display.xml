@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_bg3_style"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_1"/>
+    
+       <LinearLayout
+        style="@style/wm_parent_hw_content"
+         >
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:gravity="center"
+             >
+        <TextView
+            android:text="@string/phone_location_display_lable_open"
+            style="@style/lv_text_style"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/tv_enable"
+            style="@style/wm_parent_hw_content"
+            android:text="@string/all_rights_reserved"
+            android:textColor="@color/textcolor"
+            android:textSize="10sp" />
+        </LinearLayout>
+        
+        <RelativeLayout 
+            android:gravity="center|right"
+            style="@style/match_parent"
+            >
+        <CheckBox
+            android:id="@+id/cb_enable"
+            style="@style/checkbox"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+             />
+        </RelativeLayout>
+    </LinearLayout>
+                <View style="@style/black_line" />
+
+            <View style="@style/black_shade_line" />
+       
+    <ListView 
+        style="@style/lv_style"
+        ></ListView>
+    
+</LinearLayout>

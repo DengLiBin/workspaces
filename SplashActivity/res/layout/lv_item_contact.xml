@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       style="@style/lv_item_style"
+    >
+
+    <LinearLayout style="@style/ll_horizontal_mw_style" >
+
+        <LinearLayout
+            android:padding="5dp"
+            style="@style/ll_vertical_mw_style"
+            >
+
+            <TextView
+                android:id="@id/lv_tv_1"
+                style="@style/text_white_style"
+                android:text="@string/contact_lable_name" />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@id/lv_tv_2"
+                style="@style/text_gray_style"
+                android:text="@string/contact_lable_number"
+                android:textSize="16sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <View style="@style/black_line" />
+
+</LinearLayout>
